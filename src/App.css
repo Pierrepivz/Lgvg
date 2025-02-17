@@ -6,6 +6,122 @@
   height: 40vmin;
   pointer-events: none;
 }
+#selection{
+  margin-bottom: 180px;
+  margin-top: -120px;
+
+}
+#text{
+  margin-top: 10%;
+}
+
+.row {
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.name_display{
+  position: absolute;
+  opacity: 0;
+  transition: 1s;
+  
+}
+.shelves_container{
+  
+}
+/*.shelves_container:has(#selection:hover) {
+  margin-bottom: 130px;
+  transition: 1s;
+}*/
+
+.shelves_container:has(#house:hover) #house_display{
+  opacity: 1;
+  transition: 1s;
+}
+.shelves_container:has(#hip-house:hover) #hiphouse_display{
+  opacity: 1;
+  transition: 1s;
+}.shelves_container:has(#house2011_now:hover) #house2011_now_display{
+  opacity: 1;
+  transition: 1s;
+}
+.shelves_container:has(#techno:hover) #techno_display{
+  opacity: 1;
+  transition: 1s;
+}
+.shelves_container:has(#indie:hover) #indierock_display{
+  opacity: 1;
+  transition: 1s;
+}
+.shelves_container:has(#acid_jazz:hover) #acidjazz_display{
+  opacity: 1;
+  transition: 1s;
+}
+.shelves_container:has(#italo_house:hover) #italohouse_display{
+  opacity: 1;
+  transition: 1s;
+}
+.shelve{
+  
+  width: 122px;
+  height: 131px;
+  color: black;
+  
+  transition: 1s;
+
+  margin-top: -110px;
+}
+.shelve_block{
+  margin-top: 220px;
+  
+}
+.shelve:hover + div {
+  margin-top: -75px ;
+  transition: 1s;
+
+}
+#house{
+  background: url("./PROGRESSIVE\ HOUSE.png");
+  background-size: cover;
+
+}
+#acid_jazz{
+  background: url("./ACID_JAZZ.png");
+  background-size: cover;
+}
+#house2011_now{
+  background: url("./HOUSE_2011_NOW.png");
+  background-size: cover;
+}
+#hi-nrg{
+  background: url("./HI-NRG.png");
+  background-size: cover;
+}
+#jazz-funk{
+  background: url("./JAZZ-FUNK.png");
+  background-size: cover;
+}
+#hip-house{
+  background: url("./HIP_HOUSE.png");
+  background-size: cover;
+}
+#techno{
+  background: url("./TECHNO.png");
+  background-size: cover;
+}
+#italo_house{
+  background: url("./ITALO_HOUSE.png");
+  background-size: cover;
+
+}
+#indie{
+
+  background: url("./INDIE-ROCK.png");
+  background-size: cover;
+
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
