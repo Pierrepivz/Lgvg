@@ -1,5 +1,14 @@
+.nav{
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  background: rgba(255, 255, 255, 0.432);
+  height: 100px;
+}
+
 .App {
   text-align: center;
+  box-sizing: border-box;
 }
 
 .App-logo {
@@ -8,7 +17,8 @@
 }
 #selection{
   margin-bottom: 180px;
-  margin-top: -120px;
+  
+  margin-top: 200px;
 
 }
 #text{
@@ -28,14 +38,36 @@
   
 }
 .shelves_container{
+  height: 100vh;
   
 }
 /*.shelves_container:has(#selection:hover) {
   margin-bottom: 130px;
   transition: 1s;
 }*/
+.description{
+  margin-left: 30vw;
+  
+  
+  border-radius: 3px;
+  
+}
+.description p{
+  border-style: solid;
+  padding: 15px;
+  width: 22vw;
+  text-align: center;
+  font-size: 13px;
+}
+.shelves_container:has(.shelve:hover) #intro{
+  opacity: 0;
+  transition: 1s;
+}
+#intro{
+  transition: 1.5s;
+}
 
-.shelves_container:has(#house:hover) #house_display{
+.shelves_container:has(#house:hover) #house_display,.shelves_container:has(#house:hover) #house_description{
   opacity: 1;
   transition: 1s;
 }
@@ -64,23 +96,42 @@
 }
 .shelve{
   
-  width: 122px;
-  height: 131px;
+  width: 145px;
+  height: 150px;
   color: black;
   
   transition: 1s;
 
-  margin-top: -110px;
+  margin-top: -130px;
 }
 .shelve_block{
-  margin-top: 220px;
+  
+  width: 100%;
+ 
   
 }
-.shelve:hover + div {
-  margin-top: -75px ;
+/*.shelve:hover + a {
+  margin-top: -100px ;
   transition: 1s;
 
+}*/
+a:hover + a div {
+  margin-top: -100px ;
+  transition: 1s;
+  
+
 }
+
+
+button{
+  position: absolute;
+  left: 80vw;
+  top: 14vw;
+}
+
+
+
+
 #house{
   background: url("./PROGRESSIVE\ HOUSE.png");
   background-size: cover;
@@ -135,7 +186,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
 }
