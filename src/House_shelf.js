@@ -6,13 +6,13 @@ export default function House_shelf(){
 
     return(
         <div class="shelf" id="house_shelf">
-            <div class="row" >
+            <div class="shelf_title_description" >
             
             <p>HOUSE</p>
             
-          </div>
-          <div class="shelf_description">
-            <p>progressive house description</p>
+            <button class="back_to_shelves">back to shelves</button>
+          
+            <p class="shelf_description">progressive house description</p>
           </div>
           <div class="shelves-records">
             <div class="other_shelves">

@@ -7,7 +7,7 @@ export default function Shelves(){
           <div class="row" id="text">
             <p id="intro">"Enter the diggin portal .... your introduction phrase" </p>
             
-            <button>Our distribution (for record shops)</button>
+            <button class="distro">Our distribution (for record shops)</button>
           </div>
           <div class="shelve_presentation">
            
@@ -44,6 +44,7 @@ export default function Shelves(){
           
           
           </div>
+          
         </div>
     );
 }

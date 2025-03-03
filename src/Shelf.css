@@ -1,25 +1,22 @@
 .shelf{
-    margin-top: 100px;
+    padding-top: 100px;
+    height: 100vh;
     box-sizing: border-box;
 }
 
 
-.shelf_description p{
+.shelf_description{
     border-style: solid;
   padding: 15px;
   width: 22vw;
   text-align: center;
   font-size: 13px;
 }
-.shelf .row{
-    margin-left: 4vw;
-
+.shelf_title_description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.shelf_description{
-    margin-left: 34vw;
-    border-radius: 3px;
-    
-  }
 
 .shelves-records{
     display: flex;
@@ -49,6 +46,7 @@
 .records p{
    
     width: 21%;
+    height: auto;
     margin-right: 1%;
     font-size: 15px;
     background: white;
@@ -72,7 +70,35 @@
     
     
 }
+.back_to_shelves{
+    display: none;
+}
 @media screen and (max-width: 650px){
+
+    .back_to_shelves{
+        display: block;
+        position: absolute;
+        top: 17vh;
+        left: 75vw;
+        width: 23vw;
+        
+        font-size: 9px;
+    }
+
+    .shelf_description{
+        
+      width: 75vw;
+      
+      font-size: 12px;
+    }
+    
+
+    .shelves-records{
+        display: flex;
+        width: 95vw;
+        justify-content: space-between;
+    
+    }
     .other_shelves{
         display: none;
     }
@@ -81,7 +107,8 @@
         
         
         justify-content: space-between;
-        padding: 5%;
+        padding: 7%;
+        padding-top: 3%;
         margin-top: 0px;
         
         
@@ -97,7 +124,7 @@
     background: white;
     color: black;
     text-align: center;
-    height: 150px;
+    height: 35vw;
     
     
   

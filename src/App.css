@@ -65,41 +65,7 @@
   font-size: 13px;
   
 }
-.shelves_container:has(.shelve:hover) #intro{
-  opacity: 0;
-  transition: 1s;
-}
-#intro{
-  transition: 1.5s;
-}
 
-.shelves_container:has(#house:hover) #house_display,.shelves_container:has(#house:hover) #house_description{
-  opacity: 1;
-  transition: 1s;
-}
-.shelves_container:has(#hip-house:hover) #hiphouse_display{
-  opacity: 1;
-  transition: 1s;
-}.shelves_container:has(#house2011_now:hover) #house2011_now_display{
-  opacity: 1;
-  transition: 1s;
-}
-.shelves_container:has(#techno:hover) #techno_display{
-  opacity: 1;
-  transition: 1s;
-}
-.shelves_container:has(#indie:hover) #indierock_display{
-  opacity: 1;
-  transition: 1s;
-}
-.shelves_container:has(#acid_jazz:hover) #acidjazz_display{
-  opacity: 1;
-  transition: 1s;
-}
-.shelves_container:has(#italo_house:hover) #italohouse_display{
-  opacity: 1;
-  transition: 1s;
-}
 .shelve{
   
   width: 145px;
@@ -116,6 +82,12 @@
  
   
 }
+.distro{
+  position: absolute;
+  left: 80vw;
+  width: 18vw;
+  top: 14vw;
+}
 /*.shelve:hover + a {
   margin-top: -100px ;
   transition: 1s;
@@ -124,12 +96,7 @@
 
 
 
-button{
-  position: absolute;
-  left: 80vw;
-  width: 18vw;
-  top: 14vw;
-}
+
 
 
 
@@ -188,17 +155,22 @@ button{
   
     margin-top: -5vw;
   }
+  
   #selection{
-   margin-top: 20vw;
-    max-width: 90vw;
-    box-sizing: border-box;
     
-  }
+    margin-top: 6vw;
+    max-width: 90vw;
+    height: 60vh;
+    overflow: scroll;
+    padding-top: 80px;
+    
+     
+   }
 
-  button{
+  .distro{
     width: 140px;
     font-size: 12px;
-    top: 16vw;
+    top: 94vh;
   }
   
 
@@ -211,7 +183,10 @@ button{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 150px;
+   margin-top: 20px;
+   padding-top: 68px;
+    height: 55vh;
+    overflow: scroll;
      
      
    }
@@ -230,11 +205,11 @@ button{
   
     margin-top: -70px;
   }
-  button{
-    margin-top: 100px;
+  .distro{
+    top: 94vh;
     width: 35vw;
-    height: 8vw;
-    font-size: 11px;
+    height: 7vw;
+    font-size: 9px;
     left: 60vw;
   }
   #text{
@@ -255,17 +230,49 @@ button{
     
   
   }
+
+.shelves_container:has(.shelve:hover) #intro{
+  opacity: 0;
+  transition: 1s;
+}
+#intro{
+  transition: 1.5s;
+}
+
+.shelves_container:has(#house:hover) #house_display,.shelves_container:has(#house:hover) #house_description{
+  opacity: 1;
+  transition: 1s;
+}
+.shelves_container:has(#hip-house:hover) #hiphouse_display{
+  opacity: 1;
+  transition: 1s;
+}.shelves_container:has(#house2011_now:hover) #house2011_now_display{
+  opacity: 1;
+  transition: 1s;
+}
+.shelves_container:has(#techno:hover) #techno_display{
+  opacity: 1;
+  transition: 1s;
+}
+.shelves_container:has(#indie:hover) #indierock_display{
+  opacity: 1;
+  transition: 1s;
+}
+.shelves_container:has(#acid_jazz:hover) #acidjazz_display{
+  opacity: 1;
+  transition: 1s;
+}
+.shelves_container:has(#italo_house:hover) #italohouse_display{
+  opacity: 1;
+  transition: 1s;
+}
 }
 
 
 
 
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+
 
 .App-header {
   background-color: #282c34;
@@ -278,9 +285,7 @@ button{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+
 
 @keyframes App-logo-spin {
   from {
