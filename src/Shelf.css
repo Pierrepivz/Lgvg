@@ -72,6 +72,43 @@
     
     
 }
+@media screen and (max-width: 650px){
+    .other_shelves{
+        display: none;
+    }
+    .records{
+   
+        
+        width: 100%;
+        max-height: 53vh;
+        overflow: scroll;
+        scroll-behavior: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 5%;
+        margin-top: 0px;
+        padding-top: 2px;
+        
+        
+      
+      
+}
+.records p{
+   
+    width: 45%;
+    
+    font-size: 15px;
+    background: white;
+    color: black;
+    text-align: center;
+    height: 150px;
+    
+    
+  
+  
+}
+}
 .other_shelves a div{
     
     margin-top: -180px;
