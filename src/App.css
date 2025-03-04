@@ -3,7 +3,7 @@
   top: 0;
   width: 100vw;
   background: rgba(255, 255, 255, 0.432);
-  height: 100px;
+  height: 14vh;
 }
 
 .App {
@@ -18,7 +18,7 @@
 #selection{
   
   
-  margin-top: 300px;
+  margin-top: 36vh;
 
 }
 #text{
@@ -79,6 +79,7 @@
 .shelve_block{
   
   width: 100%;
+  transition: 1s;
  
   
 }
@@ -86,7 +87,7 @@
   position: absolute;
   left: 80vw;
   width: 18vw;
-  top: 14vw;
+  top: 19vh;
 }
 /*.shelve:hover + a {
   margin-top: -100px ;
@@ -141,6 +142,516 @@
   background-size: cover;
 
 }
+
+
+/*shelves */
+
+
+#VOCAL_HOUSE{
+
+  background:url("./THE SHELVES/VOCAL HOUSE.png");
+  background-size: cover;
+
+}
+
+#ABSTRACT{
+
+  background:url("./THE SHELVES/ABSTRACT.png");
+  background-size: cover;
+
+}
+#BIG_BEAT{
+  background:url("./THE SHELVES/BIG_BEAT.png");
+  background-size: cover;
+}
+#BERLIN_SCHOOL{
+  background:url("./THE SHELVES/BERLIN_SCHOOL.png");
+  background-size: cover;
+}
+#BREAKS{
+  background:url("./THE SHELVES/BREAKS.png");
+  background-size: cover;
+}
+#ACID{
+  background:url("./THE SHELVES/ACID.png");
+  background-size: cover;
+}
+#AFROBEAT{
+  background:url("./THE SHELVES/AFROBEAT.png");
+  background-size: cover;
+}
+#AMBIENT{
+  background:url("./THE SHELVES/AMBIENT.png");
+  background-size: cover;
+}
+#BASS_MUSIC{
+  background:url("./THE SHELVES/BASS_MUSIC.png");
+  background-size: cover;
+}
+#SPENNY{
+  background:url("./THE SHELVES/$$_SPENNY_$$.png");
+  background-size: cover;
+
+}
+#BLUES{
+  background:url("./THE SHELVES/BLUES.png");
+  background-size: cover;
+}
+#BREAKCORE{
+  background:url("./THE SHELVES/BREAKCORE.png");
+  background-size: cover;
+}
+#BROKEN_BEAT{
+  background:url("./THE SHELVES/BROKEN_BEAT.png");
+  background-size: cover;
+}
+#ACID_JAZZ{
+  background:url("./THE SHELVES/ACID_JAZZ.png");
+  background-size: cover;
+}
+#ACID_TECHNO{
+  background:url("./THE SHELVES/ACID_TECHNO.png");
+  background-size: cover;
+}
+#BOOGIE{
+  background:url("./THE SHELVES/BOOGIE.png");
+  background-size: cover;
+}
+#BOSSA_NOVA{
+  background:url("./THE SHELVES/BOSSA_NOVA.png");
+  background-size: cover;
+}
+#CHILLOUT_LOUGNE{
+  background:url("./THE SHELVES/CHILLOUT & LOUNGE.png");
+  background-size: cover;
+
+}
+#CHILLWAVE{
+  background:url("./THE SHELVES/CHILLWAVE.png");
+  background-size: cover;
+}
+#CLASSICAL{
+  background:url("./THE SHELVES/CLASSICAL.png");
+  background-size: cover;
+}
+#DARKWAVE{
+  background:url("./THE SHELVES/DARKWAVE.png");
+  background-size: cover;
+}
+#DEEP_HOUSE_90S{
+  background:url("./THE SHELVES/DEEP HOUSE 90s.png");
+  background-size: cover;
+
+}
+#DEEP_HOUSE_2000S{
+  background:url("./THE SHELVES/DEEP HOUSE 2000'S.png");
+  background-size: cover;
+}
+#DEEP_HOUSE_2011S{
+  background:url("./THE SHELVES/DEEP HOUSE 2011's - now.png");
+  background-size: cover;
+}
+#DEEP_TECH_HOUSE{
+  background:url("./THE SHELVES/DEEP TECH HOUSE.png");
+  background-size: cover;
+}
+#DEEP_TECHNO{
+  background:url("./THE SHELVES/DEEP TECHNO.png");
+  background-size: cover;
+}
+#DISCO_70S{
+  background:url("./THE SHELVES/DISCO 70'S.png");
+  background-size: cover;
+}
+#DISCO_HOUSE{
+  background:url("./THE SHELVES/DISCO HOUSE.png");
+  background-size: cover;
+}
+#DISCO{
+  background:url("./THE SHELVES/DISCO.png");
+  background-size: cover;
+}
+#DOWNTEMPO{
+  background:url("./THE SHELVES/DOWNTEMPO.png");
+  background-size: cover;
+}
+#DRONE{
+  background:url("./THE SHELVES/DRONE.png");
+  background-size: cover;
+}
+#DRUM_N_BASS{
+  background:url("./THE SHELVES/DRUM N' BASS.png");
+  background-size: cover;
+}
+#DUB_TECHNO{
+  background:url("./THE SHELVES/DUB TECHNO.png");
+  background-size: cover;
+}
+#DUB{
+  background:url("./THE SHELVES/DUB.png");
+  background-size: cover;
+}
+#DUBSTEP{
+  background:url("./THE SHELVES/DUBSTEP.png");
+  background-size: cover;
+}
+#EBM{
+  background:url("./THE SHELVES/EBM.png");
+  background-size: cover;
+}
+#ELECTRO_80S{
+  background:url("./THE SHELVES/ELECTRO 80'S.png");
+  background-size: cover;
+}
+#ELECTRO_DISCO{
+  background:url("./THE SHELVES/ELECTRO DISCO.png");
+  background-size: cover;
+}
+#ELECTRO_HOUSE{
+  background:url("./THE SHELVES/ELECTRO HOUSE.png");
+  background-size: cover;
+}
+#ELECTRO_POP{
+  background:url("./THE SHELVES/ELECTRO POP.png");
+  background-size: cover;
+}
+#ELECTRO_TECHNO{
+  background:url("./THE SHELVES/ELECTRO TECHNO.png");
+  background-size: cover;
+}
+#ELECTRO{
+  background:url("./THE SHELVES/ELECTRO.png");
+  background-size: cover;
+}
+#ELECTROCLASH{
+  background:url("./THE SHELVES/ELECTROCLASH.png");
+  background-size: cover;
+}
+#EURO_HOUSE{
+  background:url("./THE SHELVES/EURO HOUSE.png");
+  background-size: cover;
+}
+#EXPERIMENTAL{
+  background:url("./THE SHELVES/EXPERIMENTAL.png");
+  background-size: cover;
+}
+#FILTER_HOUSE{
+  background:url("./THE SHELVES/FILTER HOUSE.png");
+  background-size: cover;
+}
+#FOLK{
+  background:url("./THE SHELVES/FOLK.png");
+  background-size: cover;
+}
+#FREESTYLE{
+  background:url("./THE SHELVES/FREESTYLE.png");
+  background-size: cover;
+}
+#FREETEKNO{
+  background:url("./THE SHELVES/FREETEKNO.png");
+  background-size: cover;
+}
+#FUCK_KNOWS{
+  background:url("./THE SHELVES/FUCK KNOWS.png");
+  background-size: cover;
+}
+#FUNK_N_SOUL{
+  background:url("./THE SHELVES/FUNK N' SOUL.png");
+  background-size: cover;
+}
+#FUNKY_HOUSE{
+  background:url("./THE SHELVES/FUNKY HOUSE.png");
+  background-size: cover;
+}
+#GARAGE_HOUSE{
+  background:url("./THE SHELVES/GARAGE HOUSE.png");
+  background-size: cover;
+}
+#GERMAN_TECHNO{
+  background:url("./THE SHELVES/GERMAN TECHNO.png");
+  background-size: cover;
+}
+#GHETTOTECH{
+  background:url("./THE SHELVES/GHETTOTECH.png");
+  background-size: cover;
+}
+#GOA_TRANCE{
+  background:url("./THE SHELVES/GOA TRANCE.png");
+  background-size: cover;
+}
+#GUILTY_PLEASURES{
+  background:url("./THE SHELVES/GUILTY PLEASURES.png");
+  background-size: cover;
+}
+#HARD_HOUSE{
+  background:url("./THE SHELVES/HARD HOUSE.png");
+  background-size: cover;
+}
+#HARD_TECHNO{
+  background:url("./THE SHELVES/HARD TECHNO.png");
+  background-size: cover;
+}
+#HARD_TRANCE{
+  background:url("./THE SHELVES/HARD TRANCE.png");
+  background-size: cover;
+}
+#HARDCORE{
+  background:url("./THE SHELVES/HARDCORE.png");
+  background-size: cover;
+}
+#HARDSTYLE{
+  background:url("./THE SHELVES/HARDSTYLE.png");
+  background-size: cover;
+}
+#HI-NRG{
+  background:url("./THE SHELVES/HI-NRG.png");
+  background-size: cover;
+}
+#HIP-HOP{
+  background:url("./THE SHELVES/HIP HOP.png");
+  background-size: cover;
+}
+#HIP-HOUSE{
+  background:url("./THE SHELVES/HIP HOUSE.png");
+  background-size: cover;
+}
+#HOUSE_80S{
+  background:url("./THE SHELVES/HOUSE 80S.png");
+  background-size: cover;
+
+}
+#HOUSE_2000S{
+  background:url("./THE SHELVES/HOUSE 2000's.png");
+  background-size: cover;
+}
+#HOUSE_2011S{
+  background:url("./THE SHELVES/HOUSE 2011 - NOW.png");
+  background-size: cover;
+}
+#HOUSE_UK_90S{
+  background:url("./THE SHELVES/HOUSE UK 90'S.png");
+  background-size: cover;
+}
+#HOUSE_US_90S{
+  background:url("./THE SHELVES/HOUSE US 90S.png");
+  background-size: cover;
+}
+#HOUSE_WORLD{
+  background:url("./THE SHELVES/HOUSE WORLD.png");
+  background-size: cover;
+}
+#IDM{
+  background:url("./THE SHELVES/IDM.png");
+  background-size: cover;
+}
+#INDIE_ROCK{
+  background:url("./THE SHELVES/INDIE ROCK.png");
+  background-size: cover;
+}
+#INDUSTRIAL{
+  background:url("./THE SHELVES/INDUSTRIAL.png");
+  background-size: cover;
+}
+#ITALO_HOUSE{
+  background:url("./THE SHELVES/ITALO HOUSE.png");
+  background-size: cover;
+}
+#JAZZ_FUNK{
+  background:url("./THE SHELVES/JAZZ-FUNK.png");
+  background-size: cover;
+}
+#JAZZ{
+  background:url("./THE SHELVES/JAZZ.png");
+  background-size: cover;
+}
+#JAZZY_HOUSE{
+  background:url("./THE SHELVES/JAZZY HOUSE.png");
+  background-size: cover;
+}
+#JUNGLE{
+  background:url("./THE SHELVES/JUNGLE.png");
+  background-size: cover;
+}
+#LATIN_HOUSE{
+  background:url("./THE SHELVES/LATIN HOUSE.png");
+  background-size: cover;
+}
+#LEFTFIELD{
+  background:url("./THE SHELVES/LEFTFIELD.png");
+  background-size: cover;
+}
+#MELODIC_TECHNO{
+  background:url("./THE SHELVES/MELODIC TECHNO.png");
+  background-size: cover;
+}
+#METAL{
+  background:url("./THE SHELVES/METAL.png");
+  background-size: cover;
+}
+#MINIMAL-DEEPHOUSE{
+  background:url("./THE SHELVES/MINIMAL - DEEP HOUSE.png");
+  background-size: cover;
+}
+#MINIMAL-HOUSE{
+  background:url("./THE SHELVES/MINIMAL - HOUSE.png");
+  background-size: cover;
+}
+#MINIMAL-TECHHOUSE{
+  background:url("./THE SHELVES/MINIMAL - TECH HOUSE.png");
+  background-size: cover;
+}
+#MINIMAL-TECHNO{
+  background:url("./THE SHELVES/MINIMAL - TECHNO.png");
+  background-size: cover;
+}
+#MINIMAL{
+  background:url("./THE SHELVES/MINIMAL.png");
+  background-size: cover;
+}
+#MUSIQUE_CONCRETE{
+  background:url("./THE SHELVES/MUSIQUE CONCRETE.png");
+  background-size: cover;
+}
+#NEW_AGE{
+  background:url("./THE SHELVES/NEW AGE.png");
+  background-size: cover;
+}
+#NEW_BEAT{
+  background:url("./THE SHELVES/NEW BEAT.png");
+  background-size: cover;
+}
+#NEW_RELEASES{
+  background:url("./THE SHELVES/NEW RELEASES.png");
+  background-size: cover;
+}
+#NOISE{
+  background:url("./THE SHELVES/NOISE.png");
+  background-size: cover;
+}
+#NU_DISCO{
+  background:url("./THE SHELVES/NU DISCO.png");
+  background-size: cover;
+}
+#OUR_LABELS{
+  background:url("./THE SHELVES/OUR LABELS.png");
+  background-size: cover;
+}
+#POP{
+  background:url("./THE SHELVES/POP.png");
+  background-size: cover;
+}
+#PROGRESSIVE_HOUSE{
+  background:url("./THE SHELVES/PROGRESSIVE HOUSE.png");
+  background-size: cover;
+}
+#PROGRESSIVE_TECHNO{
+  background:url("./THE SHELVES/PROGRESSIVE TECHNO.png");
+  background-size: cover;
+}
+#PROGRESSIVE_TRANCE{
+  background:url("./THE SHELVES/PROGRESSIVE TRANCE.png");
+  background-size: cover;
+}
+#PUNK{
+  background:url("./THE SHELVES/PUNK.png");
+  background-size: cover;
+}
+#RAVE{
+  background:url("./THE SHELVES/RAVE.png");
+  background-size: cover;
+}
+#REGGAE{
+  background:url("./THE SHELVES/REGGAE.png");
+  background-size: cover;
+}
+#RNB{
+  background:url("./THE SHELVES/RNB.png");
+  background-size: cover;
+
+}
+#ROCK{
+  background:url("./THE SHELVES/ROCK.png");
+  background-size: cover;
+}
+#ROMINIMAL{
+  background:url("./THE SHELVES/ROMINIMAL.png");
+  background-size: cover;
+}
+#SOULFUL_HOUSE{
+  background:url("./THE SHELVES/SOULFUL HOUSE.png");
+  background-size: cover;
+}
+#SOUNDTRACK{
+  background:url("./THE SHELVES/SOUNDTRACK.png");
+  background-size: cover;
+}
+#SPOKEN_WORD{
+  background:url("./THE SHELVES/SPOKEN WORD.png");
+  background-size: cover;
+}
+#STAFF_PICKS{
+  background:url("./THE SHELVES/STAFF PICKS.png");
+  background-size: cover;
+}
+#SYNTH_POP{
+  background:url("./THE SHELVES/SYNTH POP.png");
+  background-size: cover;
+}
+#TECH_HOUSE{
+  background:url("./THE SHELVES/TECH HOUSE.png");
+  background-size: cover;
+}
+#TECHNO_UK{
+  background:url("./THE SHELVES/TECHNO UK.png");
+  background-size: cover;
+}
+#TECHNO_US{
+  background:url("./THE SHELVES/TECHNO US.png");
+  background-size: cover;
+}
+#TECHNO_WORLD{
+  background:url("./THE SHELVES/TECHNO WORLD.png");
+  background-size: cover;
+}
+#TRANCE{
+  background:url("./THE SHELVES/TRANCE.png");
+  background-size: cover;
+}
+#TRIBAL_HOUSE{
+  background:url("./THE SHELVES/TRIBAL HOUSE.png");
+  background-size: cover;
+}
+#TRIBAL_TECHNO{
+  background:url("./THE SHELVES/TRIBAL TECHNO.png");
+  background-size: cover;
+}
+#TRIP_HOP{
+  background:url("./THE SHELVES/TRIP HOP.png");
+  background-size: cover;
+}
+#TROUSE{
+  background:url("./THE SHELVES/TROUSE.png");
+  background-size: cover;
+}
+#UKG{
+  background:url("./THE SHELVES/UKG.png");
+  background-size: cover;
+}
+#VAPOUR_WAVE{
+  background:url("./THE SHELVES/VAPOUR WAVE.png");
+  background-size: cover;
+}
+#WORLD{
+  background:url("./THE SHELVES/WORLD.png");
+  background-size: cover;
+}
+#BINS{
+  background:url("./THE SHELVES/BINS.png");
+  background-size: cover;
+}
+/*shelves */
+
+
 @media screen and (min-width: 650px) and (max-width:1200px) {
 
   
@@ -155,14 +666,19 @@
   
     margin-top: -5vw;
   }
+  #intro{
+    font-size: 0.7em;
+    margin-top: 50px;
+  }
   
   #selection{
     
-    margin-top: 6vw;
+    margin-top: 10vw;
     max-width: 90vw;
-    height: 60vh;
+    height: 50vh;
     overflow: scroll;
-    padding-top: 80px;
+    padding-top: 75px;
+    
     
      
    }
@@ -170,7 +686,7 @@
   .distro{
     width: 140px;
     font-size: 12px;
-    top: 94vh;
+    top: 90vh;
   }
   
 
@@ -183,27 +699,42 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px;
    margin-top: 20px;
-   padding-top: 68px;
-    height: 55vh;
+   padding-top: 88px;
+    height: 50vh;
     overflow: scroll;
+     width: 100vw;
+     padding-right: 10vw;
+     scale :0,1;
+     opacity: 1;
      
+     
+    
+    
+
      
    }
    .shelve_block{
-     width: 40%;
+     width: 27vw;
+     margin: 0px;
      margin-bottom: 30%;
     
    }
    .shelve{
   
-    width: 40vw;
-    height: 40vw;
+    width: 27vw;
+    height: 30vw;
     color: black;
     
     transition: 1s;
   
-    margin-top: -70px;
+    margin-top: -90px;
+    animation: scroll-watcher linear;
+    animation-timeline: view();
+    
+    
   }
   .distro{
     top: 94vh;
@@ -283,6 +814,7 @@
   justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
+
 }
 
 
@@ -294,4 +826,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@keyframes scroll-watcher {
+  /*from{
+    margin-top: -90px ;
+    transition: 1s;
+  }
+  to {
+    margin-top: -85px;
+    transition: 1s;
+  }*/
 }

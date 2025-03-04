@@ -1,4 +1,5 @@
 import Shelve from "./Shelve.js";
+import Shelve2 from "./Shelve2.js";
 
 export default function Shelves(){
     return (
@@ -25,7 +26,7 @@ export default function Shelves(){
           
 
           <Shelve />
-          <Shelve />
+          <Shelve2 />
           <Shelve />
           <Shelve />
           <Shelve />
