@@ -45,6 +45,9 @@ export default function Shelves(){
           
           
           </div>
+          <div class="selection_cover">
+            
+          </div>
           
         </div>
     );
