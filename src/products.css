@@ -1,0 +1,90 @@
+
+
+.Products{
+    
+    height: 100vh;
+    
+
+}
+h1{
+    margin-top: 14vh;
+}
+.products_content{
+    height: 60vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.product_block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80vw;
+    
+    height: 30%;
+}
+.product_description{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+.product_items{
+    background: white;
+    color: black;
+    overflow: hidden;
+    width: 40%;
+}
+
+#edit{
+
+transition: 2s;
+
+    
+}
+#merch{
+    transition: 2s;
+}
+.products_content:has(#edit:hover) #merch{
+
+    opacity: 0;
+    font-size: 0px;
+    height: 0%;
+    transition: 2s;
+    
+        
+    }
+#edit:hover{
+
+    height: 100%;
+    transition: 2s;
+    
+        
+    }
+.products_content:has(#merch:hover) #edit{
+
+    opacity: 0;
+    height: 0%;
+    transition: 2s;
+    
+        
+    }
+    .products_content:has(#merch:hover) #edit .product_description p{
+
+        font-size: 0px;
+        transition: 5s;
+        
+            
+        }
+#merch:hover{
+
+    height: 100%;
+    transition: 2s;
+    
+        
+    }
+

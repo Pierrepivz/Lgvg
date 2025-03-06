@@ -57,6 +57,9 @@ export default function Shelve(){
           <a  href="./house-shelf" ><div class="shelve" id="HARD_HOUSE">
             
           </div></a>
+          <a  href="./house-shelf" ><div class="shelve" id="HARD_HOUSE">
+            
+          </div></a>
           
           </div>
     );
