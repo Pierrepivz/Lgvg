@@ -1,3 +1,8 @@
+body{
+  background: #282c34;
+}
+
+
 .nav{
   position: absolute;
   top: 0;
@@ -721,8 +726,10 @@
    padding-top: 100px;
     height: 50vh;
     overflow: scroll;
-     width: 100vw;
-     padding-right: 10vw;
+     width: 85vw;
+     padding-right: 2vw;
+     
+     
      scale :0,1;
      opacity: 1;
      border-radius: 30px; 

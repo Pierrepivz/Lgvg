@@ -16,7 +16,13 @@ export default function Products(){
                        edit sticks
                    </p>
 
-                   
+                   <p>
+                      intro description of the product : <br/><br/><br/>
+                       and full description / other content when you hover the product 
+                       /***************************************** */<br/>
+                       /******<br/>
+                        /******<br/>
+                   </p> 
 
                </div>
                <div class="product_items">

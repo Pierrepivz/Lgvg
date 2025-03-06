@@ -50,67 +50,52 @@ h2{
     color: black;
     overflow: hidden;
     width: 40%;
+    border-radius: 5px;
 }
 
 
-#others,#edit,#merch{
-    transition: 2s;
-}
-#edit:hover,#others:hover,#merch:hover{
+@media screen and (min-width:1200px){
 
-    height: 100%;
-    transition: 2s;
-    
-        
+    #others,#edit,#merch{
+        transition: 2s;
     }
-
-/*product 1*/
-.products_content:has(#edit:hover) #merch,.products_content:has(#edit:hover) #others{
-
-    opacity: 0;
+    #edit:hover,#others:hover,#merch:hover{
     
-    height: 0%;
-    transition: 2s;
-    
-        
-    }
-    .products_content:has(#edit:hover) #merch .product_description p,.products_content:has(#edit:hover) #others .product_description p{
-
-        font-size: 0;
-        transition-delay: 2s;
+        height: 100%;
+        transition: 2s;
         
             
         }
-
-        /*product 2*/
-
-.products_content:has(#merch:hover) #edit,.products_content:has(#merch:hover) #others{
-
-    opacity: 0;
-    height: 0%;
-    transition: 2s;
     
+    /*product 1*/
+    .products_content:has(#edit:hover) #merch,.products_content:has(#edit:hover) #others{
+    
+        opacity: 0;
         
-    }
-    .products_content:has(#merch:hover) #edit .product_description p, .products_content:has(#merch:hover) #others .product_description p{
-
-        font-size: 0px;
-        transition-delay: 2s;
+        height: 0%;
+        transition: 2s;
         
             
         }
-
-        /* product 3 */
-
-    .products_content:has(#others:hover) #edit, .products_content:has(#others:hover) #merch{
-
+        .products_content:has(#edit:hover) #merch .product_description p,.products_content:has(#edit:hover) #others .product_description p{
+    
+            font-size: 0;
+            transition-delay: 2s;
+            
+                
+            }
+    
+            /*product 2*/
+    
+    .products_content:has(#merch:hover) #edit,.products_content:has(#merch:hover) #others{
+    
         opacity: 0;
         height: 0%;
         transition: 2s;
         
             
         }
-        .products_content:has(#others:hover) #edit .product_description p, .products_content:has(#others:hover) #merch .product_description p{
+        .products_content:has(#merch:hover) #edit .product_description p, .products_content:has(#merch:hover) #others .product_description p{
     
             font-size: 0px;
             transition-delay: 2s;
@@ -118,4 +103,48 @@ h2{
                 
             }
     
+            /* product 3 */
+    
+        .products_content:has(#others:hover) #edit, .products_content:has(#others:hover) #merch{
+    
+            opacity: 0;
+            height: 0%;
+            transition: 2s;
+            
+                
+            }
+            .products_content:has(#others:hover) #edit .product_description p, .products_content:has(#others:hover) #merch .product_description p{
+        
+                font-size: 0px;
+                transition-delay: 2s;
+                
+                    
+                }
+        
 
+}
+
+
+
+@media screen and (max-width:1200px){
+    .Products{
+        height: auto;
+        padding-bottom: 150vh;
+    }
+    
+    .product_block{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .product_items{
+        height: 30vh;
+        width: 80vw;
+        overflow: scroll;
+       
+    }
+    .product_description{
+        width: 100%;
+    }
+}
