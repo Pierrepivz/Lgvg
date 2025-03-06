@@ -8,6 +8,10 @@
 }
 h1{
     margin-top: 14vh;
+    font-size: 25px;
+}
+h2{
+    font-size: 18px;
 }
 .products_content{
     height: 60vh;
@@ -32,6 +36,14 @@ h1{
     align-items: flex-start;
     overflow: hidden;
 }
+.product_description p:first-child{
+    font-style: italic;
+    font-size: 19px;
+
+}
+.product_description p{
+    font-size: 17px;
+}
 
 .product_items{
     background: white;
@@ -40,51 +52,70 @@ h1{
     width: 40%;
 }
 
-#edit{
 
-transition: 2s;
-
-    
-}
-#merch{
+#others,#edit,#merch{
     transition: 2s;
 }
-.products_content:has(#edit:hover) #merch{
-
-    opacity: 0;
-    font-size: 0px;
-    height: 0%;
-    transition: 2s;
-    
-        
-    }
-#edit:hover{
+#edit:hover,#others:hover,#merch:hover{
 
     height: 100%;
     transition: 2s;
     
         
     }
-.products_content:has(#merch:hover) #edit{
+
+/*product 1*/
+.products_content:has(#edit:hover) #merch,.products_content:has(#edit:hover) #others{
 
     opacity: 0;
+    
     height: 0%;
     transition: 2s;
     
         
     }
-    .products_content:has(#merch:hover) #edit .product_description p{
+    .products_content:has(#edit:hover) #merch .product_description p,.products_content:has(#edit:hover) #others .product_description p{
 
-        font-size: 0px;
-        transition: 5s;
+        font-size: 0;
+        transition-delay: 2s;
         
             
         }
-#merch:hover{
 
-    height: 100%;
+        /*product 2*/
+
+.products_content:has(#merch:hover) #edit,.products_content:has(#merch:hover) #others{
+
+    opacity: 0;
+    height: 0%;
     transition: 2s;
     
         
     }
+    .products_content:has(#merch:hover) #edit .product_description p, .products_content:has(#merch:hover) #others .product_description p{
+
+        font-size: 0px;
+        transition-delay: 2s;
+        
+            
+        }
+
+        /* product 3 */
+
+    .products_content:has(#others:hover) #edit, .products_content:has(#others:hover) #merch{
+
+        opacity: 0;
+        height: 0%;
+        transition: 2s;
+        
+            
+        }
+        .products_content:has(#others:hover) #edit .product_description p, .products_content:has(#others:hover) #merch .product_description p{
+    
+            font-size: 0px;
+            transition-delay: 2s;
+            
+                
+            }
+    
 

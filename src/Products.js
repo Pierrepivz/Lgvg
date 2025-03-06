@@ -16,8 +16,21 @@ export default function Products(){
                        edit sticks
                    </p>
 
+                   
+
                </div>
                <div class="product_items">
+               <p>item 1</p>
+                   <p>item 2</p>
+                   <p>item 3</p>
+                   <p>item block</p>
+                   <p>item block</p>
+                   <p>item block</p>
+                   <p>item block</p>
+                   <p>item block</p>
+                   <p>item block</p>
+                   <p>item block</p>
+                   <p>item block</p>
                    <p>item block</p>
                </div>
            </div>
@@ -27,21 +40,49 @@ export default function Products(){
                        merch
                    </p>
                    <p>
-                       description of the merche the merch description of the merche the merch
-                       description of the merche the merch
-                       description of the merche the merch
-                       description of the merche the merch
-                       description of the merche the merch
-                       description of the merche the merch
-                       description of the merche the merch
-                       
+                      intro description of the product : <br/><br/><br/>
+                       and full description / other content when you hover the product 
+                       /***************************************** */<br/>
+                       /******<br/>
+                        /******<br/>
                    </p>
 
                </div>
                <div class="product_items">
+                   <p>item 1</p>
+                   <p>item 2</p>
+                   <p>item 3</p>
                    <p>item block</p>
                    <p>item block</p>
                    <p>item block</p>
+                   <p>item block</p>
+                   <p>item block</p>
+                   <p>item block</p>
+                   <p>item block</p>
+                   <p>item block</p>
+                   <p>item block</p>
+               </div>
+           </div>
+
+           <div class="product_block" id="others">
+               <div class="product_description">
+                   <p>
+                       edit sticks
+                   </p>
+
+                   <p>
+                      intro description of the product : <br/><br/><br/>
+                       and full description / other content when you hover the product 
+                       /***************************************** */<br/>
+                       /******<br/>
+                        /******<br/>
+                   </p>
+
+               </div>
+               <div class="product_items">
+               <p>item 1</p>
+                   <p>item 2</p>
+                   <p>item 3</p>
                    <p>item block</p>
                    <p>item block</p>
                    <p>item block</p>

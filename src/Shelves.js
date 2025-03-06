@@ -7,7 +7,7 @@ export default function Shelves(){
 
           <div id="text">
             <p id="intro">"Enter the diggin portal .... your introduction phrase" </p>
-            
+            <p id="intro_mobile">"shorter intro for mobile" </p>
             <button class="distro">Our distribution (for record shops)</button>
           </div>
           <div class="shelve_presentation">
@@ -28,15 +28,17 @@ export default function Shelves(){
 
 
           
-
+          <p>House, Techno, Trance...</p>
           <Shelve />
           <Shelve2 />
           <Shelve />
+          <p>Electro, Downtempo, Tribal...</p>
           <Shelve />
           <Shelve />
+          <p>Bass music, other genres</p>
           <Shelve />
           <Shelve />
-         
+          
           
 
           
