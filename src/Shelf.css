@@ -83,17 +83,15 @@
     .back_to_shelves{
         display: block;
         position: absolute;
-        top: 17vh;
-        left: 75vw;
-        width: 23vw;
-        
-        font-size: 9px;
+        top: 93vh;
+        left: 37vw;
+        width: 26vw;
+        font-size: 10px;
     }
 
     .shelf_description{
         
       width: 75vw;
-      
       font-size: 12px;
     }
     
@@ -110,7 +108,7 @@
     .records{
    
         
-        
+        height: 49vh;
         justify-content: space-between;
         padding: 7%;
         padding-top: 3%;
@@ -125,12 +123,11 @@
 .records p{
    
     width: 45%;
-    
     font-size: 15px;
     background: white;
     color: black;
     text-align: center;
-    height: 35vw;
+    height: 34vw;
     
     
   
@@ -152,6 +149,9 @@
       
       
       font-size: 13px;
+    }
+    .shelf_title_description{
+        margin-top: 3vh;
     }
     
 .records{

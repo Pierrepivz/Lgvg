@@ -9,6 +9,7 @@ body{
   width: 100vw;
   background: rgba(255, 255, 255, 0.432);
   height: 14vh;
+  max-height: 130px;
 }
 
 .App {
@@ -714,6 +715,7 @@ body{
    }
    .nav{
      height: 13vh;
+     
    }
 
   #selection{
@@ -726,8 +728,8 @@ body{
    padding-top: 100px;
     height: 50vh;
     overflow: scroll;
-     width: 85vw;
-     padding-right: 2vw;
+     width: 82vw;
+     
      
      
      scale :0,1;
@@ -748,8 +750,8 @@ body{
     width: 100%;
     font-style: italic;
     font-size: 9px;
-    margin-top: -90px;
-    margin-bottom: 1vw;
+    margin-top: -85px;
+    margin-bottom: 10vw;
     color: white;
 
   }
@@ -757,7 +759,7 @@ body{
    .shelve_block{
      width: 27vw;
      margin: 0px;
-     margin-bottom: 30%;
+     margin-bottom: 40%;
     
    }
    .shelve{
