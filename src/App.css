@@ -1,9 +1,12 @@
 body{
-  background: #282c34;
+  
+  
+  
 }
 
 
 .nav{
+  display:none;
   position: absolute;
   top: 0;
   width: 100vw;
@@ -24,7 +27,6 @@ body{
 #selection{
   
   width: 100%;
-  
   margin-top: 40vh;
   
 }
@@ -49,10 +51,12 @@ body{
   height: 100vh;
   max-height: 100vh;
   box-sizing: border-box;
+  
 }
 
+
 .shelve_presentation{
-  margin-left: 20vw;
+  margin-left: 0vw;
   display: flex;
   flex-direction: column;
   border-radius: 3px;
@@ -65,13 +69,29 @@ body{
   display: none;
 }
 
-.description p{
+.description .name_display{
   margin-top: 50px;
   border-style: solid;
   padding: 15px;
-  width: 40vw;
+  width: 60vw;
   text-align: center;
   font-size: 13px;
+  
+}
+
+
+.shelve_block{
+  
+  width: 100%;
+  transition: 1s;
+  margin-right: 9px;
+  transform: skewX(5deg);
+  z-index:1;
+  
+  
+}
+.shelves_container{
+  
   
 }
 
@@ -80,17 +100,9 @@ body{
   width: 153px;
   height: 172px;
   color: black;
-  
   transition: 1s;
-
   margin-top: -156px;
-}
-.shelve_block{
-  
-  width: 100%;
-  transition: 1s;
-  margin-right: 3px;
- 
+  transform: skewX(-5deg);
   
 }
 .distro{
@@ -114,46 +126,7 @@ body{
 
 
 
-#house{
-  background: url("./PROGRESSIVE\ HOUSE.png");
-  background-size: cover;
 
-}
-#acid_jazz{
-  background: url("./ACID_JAZZ.png");
-  background-size: cover;
-}
-#house2011_now{
-  background: url("./HOUSE_2011_NOW.png");
-  background-size: cover;
-}
-#hi-nrg{
-  background: url("./HI-NRG.png");
-  background-size: cover;
-}
-#jazz-funk{
-  background: url("./JAZZ-FUNK.png");
-  background-size: cover;
-}
-#hip-house{
-  background: url("./HIP_HOUSE.png");
-  background-size: cover;
-}
-#techno{
-  background: url("./TECHNO.png");
-  background-size: cover;
-}
-#italo_house{
-  background: url("./ITALO_HOUSE.png");
-  background-size: cover;
-
-}
-#indie{
-
-  background: url("./INDIE-ROCK.png");
-  background-size: cover;
-
-}
 
 
 /*shelves */
@@ -161,122 +134,122 @@ body{
 
 #VOCAL_HOUSE{
 
-  background:url("./THE SHELVES/VOCAL HOUSE.png");
+  background:url("https://i.postimg.cc/XYmH2gGV/VOCAL_HOUSE.png");
   background-size: cover;
 
 }
 
 #ABSTRACT{
 
-  background:url("./THE SHELVES/ABSTRACT.png");
+  background:url("https://i.postimg.cc/Dw96QyH0/ABSTRACT.png");
   background-size: cover;
 
 }
 #BIG_BEAT{
-  background:url("./THE SHELVES/BIG_BEAT.png");
+  background:url("https://i.postimg.cc/rF65YYgZ/BIG-BEAT.png");
   background-size: cover;
 }
 #BERLIN_SCHOOL{
-  background:url("./THE SHELVES/BERLIN_SCHOOL.png");
+  background:url("https://i.postimg.cc/bJ315zCQ/BERLIN-SCHOOL.png");
   background-size: cover;
 }
 #BREAKS{
-  background:url("./THE SHELVES/BREAKS.png");
+  background:url("https://i.postimg.cc/Nf0dBnRs/BREAKS.png");
   background-size: cover;
 }
 #ACID{
-  background:url("./THE SHELVES/ACID.png");
+  background:url("https://i.postimg.cc/rmJ7Yr2Q/ACID.png");
   background-size: cover;
 }
 #AFROBEAT{
-  background:url("./THE SHELVES/AFROBEAT.png");
+  background:url("https://i.postimg.cc/k4djCXvz/AFRO-BEAT.png");
   background-size: cover;
 }
 #AMBIENT{
-  background:url("./THE SHELVES/AMBIENT.png");
+  background:url("https://i.postimg.cc/htdbGRvB/AMBIENT.png");
   background-size: cover;
 }
 #BASS_MUSIC{
-  background:url("./THE SHELVES/BASS_MUSIC.png");
+  background:url("https://i.postimg.cc/TwMRXmSx/BASS-MUSIC.png");
   background-size: cover;
 }
 #SPENNY{
-  background:url("./THE SHELVES/$$_SPENNY_$$.png");
+  background:url("https://i.postimg.cc/yN0PLCCP/SPENNY.png");
   background-size: cover;
 
 }
 #BLUES{
-  background:url("./THE SHELVES/BLUES.png");
+  background:url("https://i.postimg.cc/L5ghVRr4/BLUES.png");
   background-size: cover;
 }
 #BREAKCORE{
-  background:url("./THE SHELVES/BREAKCORE.png");
+  background:url("https://i.postimg.cc/qBGp9NGf/BREAKCORE.png");
   background-size: cover;
 }
 #BROKEN_BEAT{
-  background:url("./THE SHELVES/BROKEN_BEAT.png");
+  background:url("https://i.postimg.cc/PxwPWdGX/BROKEN-BEAT.png");
   background-size: cover;
 }
 #ACID_JAZZ{
-  background:url("./THE SHELVES/ACID_JAZZ.png");
+  background:url("https://i.postimg.cc/brfdL48Q/ACID-JAZZ.png");
   background-size: cover;
 }
 #ACID_TECHNO{
-  background:url("./THE SHELVES/ACID_TECHNO.png");
+  background:url("https://i.postimg.cc/hv04sj2B/ACID-TECHNO.png");
   background-size: cover;
 }
 #BOOGIE{
-  background:url("./THE SHELVES/BOOGIE.png");
+  background:url("https://i.postimg.cc/PrhPDGSH/BOOGIE.png");
   background-size: cover;
 }
 #BOSSA_NOVA{
-  background:url("./THE SHELVES/BOSSA_NOVA.png");
+  background:url("https://i.postimg.cc/YCrG5cFR/BOSSA-NOVA.png");
   background-size: cover;
 }
-#CHILLOUT_LOUGNE{
-  background:url("./THE SHELVES/CHILLOUT & LOUNGE.png");
+#CHILLOUT_LOUNGE{
+  background:url("https://i.postimg.cc/g2m8GXCv/CHILLOUT-LOUNGE.png");
   background-size: cover;
 
 }
 #CHILLWAVE{
-  background:url("./THE SHELVES/CHILLWAVE.png");
+  background:url("https://i.postimg.cc/d1B9KR1Z/CHILLWAVE.png");
   background-size: cover;
 }
 #CLASSICAL{
-  background:url("./THE SHELVES/CLASSICAL.png");
+  background:url("https://i.postimg.cc/4NtQfTmT/CLASSICAL.png");
   background-size: cover;
 }
 #DARKWAVE{
-  background:url("./THE SHELVES/DARKWAVE.png");
+  background:url("https://i.postimg.cc/ZRMC30sD/DARKWAVE.png");
   background-size: cover;
 }
 #DEEP_HOUSE_90S{
-  background:url("./THE SHELVES/DEEP HOUSE 90s.png");
+  background:url("https://i.postimg.cc/SsqG51yp/DEEP-HOUSE-90s.png");
   background-size: cover;
 
 }
 #DEEP_HOUSE_2000S{
-  background:url("./THE SHELVES/DEEP HOUSE 2000'S.png");
+  background:url("https://i.postimg.cc/BQNRCDB6/DEEP-HOUSE-2000-S.png");
   background-size: cover;
 }
 #DEEP_HOUSE_2011S{
-  background:url("./THE SHELVES/DEEP HOUSE 2011's - now.png");
+  background:url("https://i.postimg.cc/wvhGRsB9/DEEP-HOUSE-2011-s-now.png");
   background-size: cover;
 }
 #DEEP_TECH_HOUSE{
-  background:url("./THE SHELVES/DEEP TECH HOUSE.png");
+  background:url("https://i.postimg.cc/0NK3x4RM/DEEP-TECH-HOUSE.png");
   background-size: cover;
 }
 #DEEP_TECHNO{
-  background:url("./THE SHELVES/DEEP TECHNO.png");
+  background:url("https://i.postimg.cc/5ysp85WW/DEEP-TECHNO.png");
   background-size: cover;
 }
 #DISCO_70S{
-  background:url("./THE SHELVES/DISCO 70'S.png");
+  background:url("https://i.postimg.cc/R0x16pJn/DISCO-70-S.png");
   background-size: cover;
 }
 #DISCO_HOUSE{
-  background:url("./THE SHELVES/DISCO HOUSE.png");
+  background:url("https://i.postimg.cc/zvdZ3RdV/DISCO-HOUSE.png");
   background-size: cover;
 }
 #DISCO{
@@ -284,385 +257,1459 @@ body{
   background-size: cover;
 }
 #DOWNTEMPO{
-  background:url("./THE SHELVES/DOWNTEMPO.png");
+  background:url("https://i.postimg.cc/02c2Jz6G/DOWNTEMPO.png");
   background-size: cover;
 }
 #DRONE{
-  background:url("./THE SHELVES/DRONE.png");
+  background:url("https://i.postimg.cc/rsTF5WCj/DRONE.png");
   background-size: cover;
 }
 #DRUM_N_BASS{
-  background:url("./THE SHELVES/DRUM N' BASS.png");
+  background:url("");
   background-size: cover;
 }
 #DUB_TECHNO{
-  background:url("./THE SHELVES/DUB TECHNO.png");
+  background:url("https://i.postimg.cc/2SDF3XZL/DUB-TECHNO.png");
   background-size: cover;
 }
 #DUB{
-  background:url("./THE SHELVES/DUB.png");
+  background:url("https://i.postimg.cc/ZnJ4Wm4D/DUB.png");
   background-size: cover;
 }
 #DUBSTEP{
-  background:url("./THE SHELVES/DUBSTEP.png");
+  background:url("https://i.postimg.cc/Px384SJy/DUBSTEP.png");
   background-size: cover;
 }
 #EBM{
-  background:url("./THE SHELVES/EBM.png");
+  background:url("https://i.postimg.cc/3rGvpF7X/EBM.png");
   background-size: cover;
 }
 #ELECTRO_80S{
-  background:url("./THE SHELVES/ELECTRO 80'S.png");
+  background:url("https://i.postimg.cc/V66JdXgC/ELECTRO-80-S.png");
   background-size: cover;
 }
 #ELECTRO_DISCO{
-  background:url("./THE SHELVES/ELECTRO DISCO.png");
+  background:url("https://i.postimg.cc/4x2djYs4/ELECTRO-DISCO.png");
   background-size: cover;
 }
 #ELECTRO_HOUSE{
-  background:url("./THE SHELVES/ELECTRO HOUSE.png");
+  background:url("https://i.postimg.cc/WzY6d202/ELECTRO-HOUSE.png");
   background-size: cover;
 }
 #ELECTRO_POP{
-  background:url("./THE SHELVES/ELECTRO POP.png");
+  background:url("https://i.postimg.cc/ZKRz2VR3/ELECTRO-POP.png");
   background-size: cover;
 }
 #ELECTRO_TECHNO{
-  background:url("./THE SHELVES/ELECTRO TECHNO.png");
+  background:url("https://i.postimg.cc/FRyhFz5L/ELECTRO-TECHNO.png");
   background-size: cover;
 }
 #ELECTRO{
-  background:url("./THE SHELVES/ELECTRO.png");
+  background:url("https://i.postimg.cc/X78Xc2PC/ELECTRO.png");
   background-size: cover;
 }
 #ELECTROCLASH{
-  background:url("./THE SHELVES/ELECTROCLASH.png");
+  background:url("https://i.postimg.cc/q7BsxhQk/ELECTROCLASH.png");
   background-size: cover;
 }
 #EURO_HOUSE{
-  background:url("./THE SHELVES/EURO HOUSE.png");
+  background:url("https://i.postimg.cc/yxjpv495/EURO-HOUSE.png");
   background-size: cover;
 }
 #EXPERIMENTAL{
-  background:url("./THE SHELVES/EXPERIMENTAL.png");
+  background:url("https://i.postimg.cc/zDxktk69/EXPERIMENTAL.png");
   background-size: cover;
 }
 #FILTER_HOUSE{
-  background:url("./THE SHELVES/FILTER HOUSE.png");
+  background:url("https://i.postimg.cc/XvMMZWgc/FILTER-HOUSE.png");
   background-size: cover;
 }
 #FOLK{
-  background:url("./THE SHELVES/FOLK.png");
+  background:url("https://i.postimg.cc/G2Hv6WZV/FOLK.png");
   background-size: cover;
 }
 #FREESTYLE{
-  background:url("./THE SHELVES/FREESTYLE.png");
+  background:url("https://i.postimg.cc/QM76vW1c/FREESTYLE.png");
   background-size: cover;
 }
 #FREETEKNO{
-  background:url("./THE SHELVES/FREETEKNO.png");
+  background:url("https://i.postimg.cc/jS2q6RNp/FREETEKNO.png");
   background-size: cover;
 }
 #FUCK_KNOWS{
-  background:url("./THE SHELVES/FUCK KNOWS.png");
+  background:url("");
   background-size: cover;
 }
 #FUNK_N_SOUL{
-  background:url("./THE SHELVES/FUNK N' SOUL.png");
+  background:url("https://i.postimg.cc/x1ZftB3c/FUNK-N-SOUL.png");
   background-size: cover;
 }
 #FUNKY_HOUSE{
-  background:url("./THE SHELVES/FUNKY HOUSE.png");
+  background:url("https://i.postimg.cc/rF8wm1pF/FUNKY-HOUSE.png");
   background-size: cover;
 }
 #GARAGE_HOUSE{
-  background:url("./THE SHELVES/GARAGE HOUSE.png");
+  background:url("https://i.postimg.cc/0yhvpD9S/GARAGE_HOUSE.png");
   background-size: cover;
 }
 #GERMAN_TECHNO{
-  background:url("./THE SHELVES/GERMAN TECHNO.png");
+  background:url("https://i.postimg.cc/P5sv2pXg/GERMAN_TECHNO.png");
   background-size: cover;
 }
 #GHETTOTECH{
-  background:url("./THE SHELVES/GHETTOTECH.png");
+  background:url("https://i.postimg.cc/bY0vpCpB/GHETTOTECH.png");
   background-size: cover;
 }
 #GOA_TRANCE{
-  background:url("./THE SHELVES/GOA TRANCE.png");
+  background:url("https://i.postimg.cc/v8Xd0pQb/GOA_TRANCE.png");
   background-size: cover;
 }
 #GUILTY_PLEASURES{
-  background:url("./THE SHELVES/GUILTY PLEASURES.png");
+  background:url("https://i.postimg.cc/wTWbNz9R/GUILTY_PLEASURES.png");
   background-size: cover;
 }
 #HARD_HOUSE{
-  background:url("./THE SHELVES/HARD HOUSE.png");
+  background:url("https://i.postimg.cc/TPywxT3V/HARD_HOUSE.png");
   background-size: cover;
 }
 #HARD_TECHNO{
-  background:url("./THE SHELVES/HARD TECHNO.png");
+  background:url("https://i.postimg.cc/xdFzGscR/HARD_TECHNO.png");
   background-size: cover;
 }
 #HARD_TRANCE{
-  background:url("./THE SHELVES/HARD TRANCE.png");
+  background:url("https://i.postimg.cc/YCsV5HVB/HARD_TRANCE.png");
   background-size: cover;
 }
 #HARDCORE{
-  background:url("./THE SHELVES/HARDCORE.png");
+  background:url("https://i.postimg.cc/RCLYMf8R/HARDCORE.png");
   background-size: cover;
 }
 #HARDSTYLE{
-  background:url("./THE SHELVES/HARDSTYLE.png");
+  background:url("https://i.postimg.cc/kGHKnTdG/HARDSTYLE.png");
   background-size: cover;
 }
 #HI-NRG{
-  background:url("./THE SHELVES/HI-NRG.png");
+  background:url("https://i.postimg.cc/3r1LMh4f/HI-NRG.png");
   background-size: cover;
 }
 #HIP-HOP{
-  background:url("./THE SHELVES/HIP HOP.png");
+  background:url("https://i.postimg.cc/rsGsHgF7/HIP_HOP.png");
   background-size: cover;
 }
 #HIP-HOUSE{
-  background:url("./THE SHELVES/HIP HOUSE.png");
+  background:url("");
   background-size: cover;
 }
 
 #HOUSE_80S{
-  background:url("./THE SHELVES/HOUSE 80S.png");
+  background:url("https://i.postimg.cc/XqYkNZGH/HOUSE_80S.png");
   background-size: cover;
 
 }
 #HOUSE_2000S{
-  background:url("./THE SHELVES/HOUSE 2000's.png");
+  background:url("https://i.postimg.cc/nrrqb6gN/HOUSE_2000_s.png");
   background-size: cover;
 }
 #HOUSE_2011S{
-  background:url("./THE SHELVES/HOUSE 2011 - NOW.png");
+  background:url("https://i.postimg.cc/L4gzDMkZ/HOUSE_2011_-_NOW.png");
   background-size: cover;
 }
 #HOUSE_UK_90S{
-  background:url("./THE SHELVES/HOUSE UK 90'S.png");
+  background:url("https://i.postimg.cc/6QVrdVCb/HOUSE_UK_90_S.png");
   background-size: cover;
 }
 #HOUSE_US_90S{
-  background:url("./THE SHELVES/HOUSE US 90S.png");
+  background:url("https://i.postimg.cc/fLpYsHsL/HOUSE_US_90S.png");
   background-size: cover;
 }
 #HOUSE_WORLD{
-  background:url("./THE SHELVES/HOUSE WORLD.png");
+  background:url("https://i.postimg.cc/wTT9H9W1/HOUSE_WORLD.png");
   background-size: cover;
 }
 #IDM{
-  background:url("./THE SHELVES/IDM.png");
+  background:url("https://i.postimg.cc/mkyJJFxm/IDM.png");
   background-size: cover;
 }
 #INDIE_ROCK{
-  background:url("./THE SHELVES/INDIE ROCK.png");
+  background:url("https://i.postimg.cc/tCm2Tzzh/INDIE_ROCK.png");
   background-size: cover;
 }
 #INDUSTRIAL{
-  background:url("./THE SHELVES/INDUSTRIAL.png");
+  background:url("https://i.postimg.cc/tR3KY81F/INDUSTRIAL.png");
   background-size: cover;
 }
 #ITALO_HOUSE{
-  background:url("./THE SHELVES/ITALO HOUSE.png");
+  background:url("");
   background-size: cover;
 }
 #JAZZ_FUNK{
-  background:url("./THE SHELVES/JAZZ-FUNK.png");
+  background:url("https://i.postimg.cc/sfHp9gZz/JAZZ-FUNK.png");
   background-size: cover;
 }
 #JAZZ{
-  background:url("./THE SHELVES/JAZZ.png");
+  background:url("https://i.postimg.cc/50L2Hpvj/JAZZ.png");
   background-size: cover;
 }
 #JAZZY_HOUSE{
-  background:url("./THE SHELVES/JAZZY HOUSE.png");
+  background:url("https://i.postimg.cc/fTjSqWVk/JAZZY_HOUSE.png");
   background-size: cover;
 }
 #JUNGLE{
-  background:url("./THE SHELVES/JUNGLE.png");
+  background:url("https://i.postimg.cc/N00XHhfF/JUNGLE.png");
   background-size: cover;
 }
 #LATIN_HOUSE{
-  background:url("./THE SHELVES/LATIN HOUSE.png");
+  background:url("https://i.postimg.cc/LsGc1pB3/LATIN_HOUSE.png");
   background-size: cover;
 }
 #LEFTFIELD{
-  background:url("./THE SHELVES/LEFTFIELD.png");
+  background:url("");
   background-size: cover;
 }
 #MELODIC_TECHNO{
-  background:url("./THE SHELVES/MELODIC TECHNO.png");
+  background:url("");
   background-size: cover;
 }
 #METAL{
-  background:url("./THE SHELVES/METAL.png");
+  background:url("https://i.postimg.cc/4xm2b03L/METAL.png");
   background-size: cover;
 }
 #MINIMAL-DEEPHOUSE{
-  background:url("./THE SHELVES/MINIMAL - DEEP HOUSE.png");
+  background:url("https://i.postimg.cc/SKjXKWDz/MINIMAL_-_DEEP_HOUSE.png");
   background-size: cover;
 }
 #MINIMAL-HOUSE{
-  background:url("./THE SHELVES/MINIMAL - HOUSE.png");
+  background:url("https://i.postimg.cc/02B1sDM4/MINIMAL_-_HOUSE.png");
   background-size: cover;
 }
 #MINIMAL-TECHHOUSE{
-  background:url("./THE SHELVES/MINIMAL - TECH HOUSE.png");
+  background:url("https://i.postimg.cc/YCvkGbBk/MINIMAL_-_TECH_HOUSE.png");
   background-size: cover;
 }
 #MINIMAL-TECHNO{
-  background:url("./THE SHELVES/MINIMAL - TECHNO.png");
+  background:url("https://i.postimg.cc/gr9jSQWV/MINIMAL_-_TECHNO.png");
   background-size: cover;
 }
 #MINIMAL{
-  background:url("./THE SHELVES/MINIMAL.png");
+  background:url("https://i.postimg.cc/MTS8LwMK/MINIMAL.png");
   background-size: cover;
 }
 #MUSIQUE_CONCRETE{
-  background:url("./THE SHELVES/MUSIQUE CONCRETE.png");
+  background:url("https://i.postimg.cc/HL5g3nLh/MUSIQUE_CONCRETE.png");
   background-size: cover;
 }
 #NEW_AGE{
-  background:url("./THE SHELVES/NEW AGE.png");
+  background:url("https://i.postimg.cc/s2np6j05/NEW_AGE.png");
   background-size: cover;
 }
 #NEW_BEAT{
-  background:url("./THE SHELVES/NEW BEAT.png");
+  background:url("https://i.postimg.cc/brnkwQYR/NEW_BEAT.png");
   background-size: cover;
 }
 #NEW_RELEASES{
-  background:url("./THE SHELVES/NEW RELEASES.png");
+  background:url("https://i.postimg.cc/Xqx3FPvN/NEW_RELEASES.png");
   background-size: cover;
 }
 #NOISE{
-  background:url("./THE SHELVES/NOISE.png");
+  background:url("https://i.postimg.cc/Njd9YN7c/NOISE.png");
   background-size: cover;
 }
 #NU_DISCO{
-  background:url("./THE SHELVES/NU DISCO.png");
+  background:url("https://i.postimg.cc/6ppqHrs1/NU_DISCO.png");
   background-size: cover;
 }
 #OUR_LABELS{
-  background:url("./THE SHELVES/OUR LABELS.png");
+  background:url("https://i.postimg.cc/QMj9Z2WS/OUR_LABELS.png");
   background-size: cover;
 }
 #POP{
-  background:url("./THE SHELVES/POP.png");
+  background:url("https://i.postimg.cc/wBSBTn1S/POP.png");
   background-size: cover;
 }
 #PROGRESSIVE_HOUSE{
-  background:url("./THE SHELVES/PROGRESSIVE HOUSE.png");
+  background:url("https://i.postimg.cc/cHsQTKmx/PROGRESSIVE_HOUSE.png");
   background-size: cover;
 }
 #PROGRESSIVE_TECHNO{
-  background:url("./THE SHELVES/PROGRESSIVE TECHNO.png");
+  background:url("https://i.postimg.cc/sgXqHXTJ/PROGRESSIVE_TECHNO.png");
   background-size: cover;
 }
 #PROGRESSIVE_TRANCE{
-  background:url("./THE SHELVES/PROGRESSIVE TRANCE.png");
+  background:url("");
   background-size: cover;
 }
 #PUNK{
-  background:url("./THE SHELVES/PUNK.png");
+  background:url("https://i.postimg.cc/BQZVtbfG/PUNK.png");
   background-size: cover;
 }
 #RAVE{
-  background:url("./THE SHELVES/RAVE.png");
+  background:url("https://i.postimg.cc/zDykQhNv/RAVE.png");
   background-size: cover;
 }
 #REGGAE{
-  background:url("./THE SHELVES/REGGAE.png");
+  background:url("https://i.postimg.cc/vBMpzvk4/REGGAE.png");
   background-size: cover;
 }
 #RNB{
-  background:url("./THE SHELVES/RNB.png");
+  background:url("https://i.postimg.cc/d0XhZLxN/RNB.png");
   background-size: cover;
 
 }
 #ROCK{
-  background:url("./THE SHELVES/ROCK.png");
+  background:url("https://i.postimg.cc/BvN8SmT3/ROCK.png");
   background-size: cover;
 }
 #ROMINIMAL{
-  background:url("./THE SHELVES/ROMINIMAL.png");
+  background:url("https://i.postimg.cc/j2bBM41W/ROMINIMAL.png");
   background-size: cover;
 }
 #SOULFUL_HOUSE{
-  background:url("./THE SHELVES/SOULFUL HOUSE.png");
+  background:url("https://i.postimg.cc/3RFH5qmj/SOULFUL_HOUSE.png");
   background-size: cover;
 }
 #SOUNDTRACK{
-  background:url("./THE SHELVES/SOUNDTRACK.png");
+  background:url("https://i.postimg.cc/G36jnp3Q/SOUNDTRACK.png");
   background-size: cover;
 }
 #SPOKEN_WORD{
-  background:url("./THE SHELVES/SPOKEN WORD.png");
+  background:url("https://i.postimg.cc/76Y20FHb/SPOKEN_WORD.png");
   background-size: cover;
 }
 #STAFF_PICKS{
-  background:url("./THE SHELVES/STAFF PICKS.png");
+  background:url("https://i.postimg.cc/0NJ83ZVZ/STAFF_PICKS.png");
   background-size: cover;
 }
 #SYNTH_POP{
-  background:url("./THE SHELVES/SYNTH POP.png");
+  background:url("https://i.postimg.cc/1zDkwdCx/SYNTH_POP.png");
   background-size: cover;
 }
 #TECH_HOUSE{
-  background:url("./THE SHELVES/TECH HOUSE.png");
+  background:url("https://i.postimg.cc/VvsPYFWx/TECH_HOUSE.png");
   background-size: cover;
 }
 #TECHNO_UK{
-  background:url("./THE SHELVES/TECHNO UK.png");
+  background:url("https://i.postimg.cc/3x49DDLz/TECHNO_UK.png");
   background-size: cover;
 }
 #TECHNO_US{
-  background:url("./THE SHELVES/TECHNO US.png");
+  background:url("https://i.postimg.cc/jdgtSB9Z/TECHNO_US.png");
   background-size: cover;
 }
 #TECHNO_WORLD{
-  background:url("./THE SHELVES/TECHNO WORLD.png");
+  background:url("https://i.postimg.cc/gjzNwS5K/TECHNO_WORLD.png");
   background-size: cover;
 }
 #TRANCE{
-  background:url("./THE SHELVES/TRANCE.png");
+  background:url("https://i.postimg.cc/mg1f2k7g/TRANCE.png");
   background-size: cover;
 }
 #TRIBAL_HOUSE{
-  background:url("./THE SHELVES/TRIBAL HOUSE.png");
+  background:url("https://i.postimg.cc/W3rQmH5L/TRIBAL_HOUSE.png");
   background-size: cover;
 }
 #TRIBAL_TECHNO{
-  background:url("./THE SHELVES/TRIBAL TECHNO.png");
+  background:url("https://i.postimg.cc/MTb9p2sT/TRIBAL_TECHNO.png");
   background-size: cover;
 }
 #TRIP_HOP{
-  background:url("./THE SHELVES/TRIP HOP.png");
+  background:url("https://i.postimg.cc/XYLFqNWt/TRIP_HOP.png");
   background-size: cover;
 }
 #TROUSE{
-  background:url("./THE SHELVES/TROUSE.png");
+  background:url("https://i.postimg.cc/sg4PW9Y6/TROUSE.png");
   background-size: cover;
 }
 #UKG{
-  background:url("./THE SHELVES/UKG.png");
+  background:url("https://i.postimg.cc/kXDvkbdD/UKG.png");
   background-size: cover;
 }
 #VAPOUR_WAVE{
-  background:url("./THE SHELVES/VAPOUR WAVE.png");
+  background:url("https://i.postimg.cc/dQGhDQmn/VAPOUR_WAVE.png");
   background-size: cover;
 }
 #WORLD{
-  background:url("./THE SHELVES/WORLD.png");
+  background:url("https://i.postimg.cc/GhbZYzYV/WORLD.png");
   background-size: cover;
 }
 #BINS{
-  background:url("./THE SHELVES/BINS.png");
+  background:url("https://i.postimg.cc/k4rH5yqj/zz_BINS_zz.png");
   background-size: cover;
 }
 /*shelves */
+
+
+/* shelves banner */
+
+
+.shelf_banner .name_display{
+  
+  
+  width: 320px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: 320px 50px;
+  
+  
+  
+  
+  
+}
+
+
+
+.shelf_banner #ABSTRACT_display{
+  
+  background:url("https://i.postimg.cc/Y02G3dvS/WHITE-ABSTRACT.png");
+ 
+  background-size: 320px 50px;
+  
+}
+.shelf_banner #ACID_display{
+  
+  background:url("https://i.postimg.cc/Ls6jv4GS/WHITE-ACID.png");
+  
+  background-size: 320px 50px;
+  
+}
+.shelf_banner #SPENNY_display{
+  
+  background:url("https://i.postimg.cc/wBfLr8dm/WHITE-SPENNY.png");
+  
+  background-size: 320px 50px;
+  
+}
+.shelf_banner #ACID_HOUSE_display{
+  
+  background:url("https://i.postimg.cc/7ZNggJsX/WHITE-ACID-HOUSE.png");
+ 
+  background-size: 320px 50px;
+  
+}
+.shelf_banner #ACID_JAZZ_display{
+  
+  background:url("https://i.postimg.cc/K8bPkDNR/WHITE-ACID-JAZZ.png");
+ 
+  background-size: 320px 50px;
+  
+}
+.shelf_banner #ACID_TECHNO_display{
+  
+  background:url("https://i.postimg.cc/sD7PgN5k/WHITE-ACID-TECHNO.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #AFROBEAT_display{
+  
+  background:url("https://i.postimg.cc/RCjQ9BJ1/WHITE-AFRO-BEAT.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #AMBIENT_display{
+  
+  background:url("https://i.postimg.cc/J7yc9n04/WHITE-AMBIENT.png");
+  background-size: 320px 50px;
+  
+}
+.shelf_banner #BASS_MUSIC_display{
+  
+  background:url("https://i.postimg.cc/t7QgcDTP/WHITE-BASS-MUSIC.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #BERLIN_SCHOOL_display{
+  
+  background:url("https://i.postimg.cc/8cr5wx1N/WHITE-BERLIN-SCHOOL.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #BIG_BEAT_display{
+  
+  background:url("https://i.postimg.cc/gJ7jVGbg/WHITE-BIG-BEAT.png");
+  background-size: 320px 50px;
+  
+  
+}
+
+/****/
+
+.shelf_banner #BLUES_display{
+  
+  background:url("https://i.postimg.cc/xC8qNchk/WHITE-BLUES.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #BOOGIE_display{
+  
+  background:url("https://i.postimg.cc/ZqVCqr7t/WHITE-BOOGIE.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #BOSSA_NOVA_display{
+  
+  background:url("https://i.postimg.cc/BvqjshCB/WHITE-BOSSA-NOVA.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #BREAKCORE_display{
+  
+  background:url("https://i.postimg.cc/cL7vpqfJ/WHITE-BREAKCORE.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #BREAKS_display{
+  
+  background:url("https://i.postimg.cc/65v2h43n/WHITE-BREAKS.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #BROKEN_BEAT_display{
+  
+  background:url("https://i.postimg.cc/4xRK247M/WHITE-BROKEN-BEAT.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #CHILLWAVE_display{
+  
+  background:url("https://i.postimg.cc/XNhBFkVn/WHITE-CHILLWAVE.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #CLASSICAL_display{
+  
+  background:url("https://i.postimg.cc/Vv3S8m7J/WHITE-CLASSICAL.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #DARKWAVE_display{
+  
+  background:url("https://i.postimg.cc/tJ11wYz0/WHITE-DARKWAVE.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #DEEP_HOUSE_display{
+  
+  background:url("https://i.postimg.cc/cHkgFQwM/WHITE-DEEP-HOUSE.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #DEEP_TECH_HOUSE_display{
+  
+  background:url("https://i.postimg.cc/502Q5PY2/WHITE-DEEP-TECH-HOUSE.png");
+  background-size: 320px 50px;
+  
+  
+}.shelf_banner #DEEP_TECHNO_display{
+  
+  background:url("https://i.postimg.cc/zfjRgmfQ/WHITE-DEEP-TECHNO.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #DISCO_display{
+  
+  background:url("https://i.postimg.cc/MGxQHZzR/WHITE-DISCO.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #DISCO_70S_display{
+  
+  background:url("https://i.postimg.cc/zGThqHY8/WHITE-DISCO-70-S-80-S.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #DISCO_HOUSE_display{
+  
+  background:url("https://i.postimg.cc/Qx95nn6B/WHITE-DISCO-HOUSE.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #DOWNTEMPO_display{
+  
+  background:url("https://i.postimg.cc/vHJ9RLj0/WHITE-DOWNTEMPO.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #DRONE_display{
+  
+  background:url("https://i.postimg.cc/kMhKsdy3/WHITE-DRONE.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #DRUM_N_BASS_display{
+  
+  background:url("https://i.postimg.cc/C5t8xjKL/WHITE-DRUM-N-BASS.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #DUB_display{
+  
+  background:url("https://i.postimg.cc/6qTRKHtm/WHITE-DUB.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #DUB_TECHNO_display{
+  
+  background:url("https://i.postimg.cc/1tv6LxhF/WHITE-DUB-TECHNO.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #DUBSTEP_display{
+  
+  background:url("https://i.postimg.cc/C1hkPhtY/WHITE-DUBSTEP.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #EBM_display{
+  
+  background:url("https://i.postimg.cc/LsBj3YxN/WHITE-EBM.png");
+  background-size: 320px 50px;
+  
+  
+}.shelf_banner #ELECTRO_display{
+  
+  background:url("https://i.postimg.cc/hGq9mb1X/WHITE-ELECTRO.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #ELECTRO_80S_display{
+  
+  background:url("https://i.postimg.cc/t4637mW0/WHITE-ELECTRO-80-S.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #ELECTRO_DISCO_display{
+  
+  background:url("https://i.postimg.cc/J4v3rWyc/WHITE-ELECTRO-DISCO.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #ELECTRO_HOUSE_display{
+  
+  background:url("https://i.postimg.cc/4NmbR33x/WHITE-ELECTRO-HOUSE.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #ELECTROCLASH_display{
+  
+  background:url("https://i.postimg.cc/L50tgcxS/WHITE-ELECTROCLASH.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #ELECTROPOP_display{
+  
+  background:url("https://i.postimg.cc/8cCd5pBw/WHITE-ELECTROPOP.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #EURO_HOUSE_display{
+  
+  background:url("https://i.postimg.cc/C17HSBDz/WHITE-EURO-HOUSE.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #EXPERIMENTAL_display{
+  
+  background:url("https://i.postimg.cc/gJmqCqxC/WHITE-EXPERIMENTAL.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #FILTER_HOUSE_display{
+  
+  background:url("https://i.postimg.cc/fbxfqgR7/WHITE-FILTER-HOUSE.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #FOLK_display{
+  
+  background:url("https://i.postimg.cc/1zxKHZs5/WHITE-FOLK.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #FREESTYLE_display{
+  
+  background:url("https://i.postimg.cc/qv6Ly7f5/WHITE-FREESTYLE.png");
+  background-size: 320px 50px;
+  
+  
+}.shelf_banner #FREETEKNO_display{
+  
+  background:url("https://i.postimg.cc/bNJLYTm8/WHITE-FREETEKNO.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #FUCK_KNOWS_display{
+  
+  background:url("https://i.postimg.cc/65mc8vPZ/WHITE-FUCK-KNOWS.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #FUNK_N_SOUL_display{
+  
+  background:url("https://i.postimg.cc/c1TXNjMX/WHITE-FUNK-N-SOUL.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #FUNKY_HOUSE_display{
+  
+  background:url("https://i.postimg.cc/Vv7RBrL3/WHITE_FUNKY_HOUSE.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #FUTURE_JAZZ_display{
+  
+  background:url("https://i.postimg.cc/fyWC9jZc/WHITE_FUTURE_JAZZ.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #GABBER_display{
+  
+  background:url("https://i.postimg.cc/tTNDJm0R/WHITE_GABBER.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #GARAGE_HOUSE_display{
+  
+  background:url("https://i.postimg.cc/SshDybvt/WHITE_GARAGE_HOUSE.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #GERMAN_TECHNO_display{
+  
+  background:url("https://i.postimg.cc/9fTL5QJ7/WHITE_GERMAN_TECHNO.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #GETTOTECH_display{
+  
+  background:url("https://i.postimg.cc/vZ4PhznX/WHITE_GHETTOTECH.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #GUILTY_PLEASURES_display{
+  
+  background:url("https://i.postimg.cc/2Sg0KZFY/WHITE_GUILTY_PLEASURES.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #HARD_HOUSE_display{
+  
+  background:url("https://i.postimg.cc/ZK776gWC/WHITE_HARD_HOUSE.png");
+  background-size: 320px 50px;
+  
+  
+}.shelf_banner #HARD_TECHNO_display{
+  
+  background:url("https://i.postimg.cc/J44YDm4f/WHITE_HARD_TECHNO.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #HARD_TRANCE_display{
+  
+  background:url("https://i.postimg.cc/05CHyrxG/WHITE_HARD_TRANCE.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #HARDCORE_display{
+  
+  background:url("https://i.postimg.cc/yxnfQpnp/WHITE_HARDCORE.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #HARDSTYLE_display{
+  
+  background:url("https://i.postimg.cc/fyM2vQ70/WHITE_HARDSTYLE.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #HAUNTED_display{
+  
+  background:url("https://i.postimg.cc/NM6CTjXc/WHITE_HAUNTED.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #HI-NRG_display{
+  
+  background:url("https://i.postimg.cc/SsFtJMJd/WHITE_HI-NRG.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #HIP_HOP_display{
+  
+  background:url("https://i.postimg.cc/QMWy8bxV/WHITE_HIP_HOP.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #HIP_HOUSE_display{
+  
+  background:url("https://i.postimg.cc/T3ssvSxZ/WHITE_HIP_HOUSE.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #HOUSE_2000S_display{
+  
+  background:url("https://i.postimg.cc/4xy0MGD6/WHITE_HOUSE_2000_S.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #HOUSE_2011S_display{
+  
+  background:url("https://i.postimg.cc/L6HwtLv0/WHITE_HOUSE_2011_-_NOW.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #HOUSE_80S_display{
+  
+  background:url("https://i.postimg.cc/02c3cjB5/WHITE_HOUSE_80_S.png");
+  background-size: 320px 50px;
+  
+  
+}.shelf_banner #HOUSE_UK_90S_display{
+  
+  background:url("https://i.postimg.cc/05GhKcGw/WHITE_HOUSE_UK_90_S.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #HOUSE_US_90S_display{
+  
+  background:url("https://i.postimg.cc/L5V7d84T/WHITE_HOUSE_US_90_S.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #HOUSE_WORLD_display{
+  
+  background:url("https://i.postimg.cc/6qKS1vKq/WHITE_HOUSE_WORLD.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #INDIE_ROCK_display{
+  
+  background:url("https://i.postimg.cc/9fvsZkNG/WHITE_INDIE_ROCK.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #INDUSTRIAL_display{
+  
+  background:url("https://i.postimg.cc/JnZvqQ9S/WHITE_INDUSTRIAL.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #ITALO_HOUSE_display{
+  
+  background:url("https://i.postimg.cc/VkZxLvqZ/WHITE_ITALO_HOUSE.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #JAZZ_display{
+  
+  background:url("https://i.postimg.cc/zGfmrKgR/WHITE_JAZZ.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #JAZZ_FUNK_display{
+  
+  background:url("https://i.postimg.cc/BQ49mdZp/WHITE_JAZZ_-_FUNK.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #JAZZY_HOUSE_display{
+  
+  background:url("https://i.postimg.cc/VsjPBYw5/WHITE_JAZZY_HOUSE.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #JUNGLE_display{
+  
+  background:url("https://i.postimg.cc/Fzgt9xp0/WHITE_JUNGLE.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #LATIN_HOUSE_display{
+  
+  background:url("https://i.postimg.cc/SRpFFP6y/WHITE_LATIN_HOUSE.png");
+  background-size: 320px 50px;
+  
+  
+}.shelf_banner #LEFTFIELD_display{
+  
+  background:url("https://i.postimg.cc/7Y9vdmfk/WHITE_LEFTFIELD.png");
+  background-size: 320px 50px;
+
+}
+.shelf_banner #LOUNGE_display{
+  
+  background:url("https://i.postimg.cc/G2DwfRs7/WHITE_LOUNGE.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #LPS_display{
+  
+  background:url("https://i.postimg.cc/wBZYFM3R/WHITE_LP_S_&_COMPILATIONS.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #MELODIC_TECHNO_display{
+  
+  background:url("https://i.postimg.cc/LsnMzL4M/WHITE_MELOODIC_TECHNO.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #METAL_display{
+  
+  background:url("https://i.postimg.cc/vZ8yZCpT/WHITE_METAL.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #ACID_TECHNO_display{
+  
+  background:url("https://i.postimg.cc/sD7PgN5k/WHITE-ACID-TECHNO.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #MINIMAL_display{
+  
+  background:url("https://i.postimg.cc/Hs9HHTvF/WHITE_MINIMAL.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #MINIMAL-DEEPHOUSE_display{
+  
+  background:url("https://i.postimg.cc/jS8bwZbX/WHITE_MINIMAL_-_DEEP_HOUSE.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #MINIMAL-TECHHOUSE_display{
+  
+  background:url("https://i.postimg.cc/VL813Jgj/WHITE_MINIMAL_-_TECH_HOUSE.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #MINIMAL-HOUSE_display{
+  
+  background:url("https://i.postimg.cc/7P7ws33H/WHITE_MINIMAL_HOUSE.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #MINIMAL-TECHNO_display{
+  
+  background:url("https://i.postimg.cc/Kjnb1bGk/WHITE_MINIMAL_TECHNO.png");
+  background-size: 320px 50px;
+  
+  
+}.shelf_banner #MUSIQUE_CONCRETE_display{
+  
+  background:url("https://i.postimg.cc/Vvy1sv8P/WHITE_MUSIUE_CONCRETE.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #NEW_AGE_display{
+  
+  background:url("https://i.postimg.cc/xCNnSHBP/WHITE_NEW_AGE.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #NEW_BEAT_display{
+  
+  background:url("https://i.postimg.cc/DzMnD5pZ/WHITE_NEW_BEAT.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #NEW_RELEASES_display{
+  
+  background:url("https://i.postimg.cc/s2X3wbcq/WHITE_NEW_RELEASES.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #NOISE_display{
+  
+  background:url("https://i.postimg.cc/Dw52Q7q1/WHITE_NOISE.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #NU_DISCO_display{
+  
+  background:url("https://i.postimg.cc/rwqVtDt8/WHITE_NU_DISCO.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #OUR_LABELS_display{
+  
+  background:url("https://i.postimg.cc/RV5V4sSJ/WHITE_OUR_LABELS.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #POP_display{
+  
+  background:url("https://i.postimg.cc/h47tFWBq/WHITE_POP.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #PROGRESSIVE_HOUSE_display{
+  
+  background:url("https://i.postimg.cc/KjLGtLNY/WHITE_PROGRESSIVE_HOUSE.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #PROGRESSIVE_TECHNO_display{
+  
+  background:url("https://i.postimg.cc/hjN4JMVw/WHITE_PROGRESSIVE_TECHNO.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #PROGRESSIVE_TRANCE_display{
+  
+  background:url("https://i.postimg.cc/xCXTTBNM/WHITE_PROGRESSIVE_TRANCE.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #PUNK_display{
+  
+  background:url("https://i.postimg.cc/fb2RsMyM/WHITE_PUNK.png");
+  background-size: 320px 50px;
+  
+  
+}.shelf_banner #RAVE_display{
+  
+  background:url("https://i.postimg.cc/3wJxzkKL/WHITE_RAVE.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #REGGAE_display{
+  
+  background:url("https://i.postimg.cc/zGkfdC1b/WHITE_REGGAE.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #RNB_display{
+  
+  background:url("https://i.postimg.cc/zGNBSd4Y/WHITE_RNB.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #ROCK_display{
+  
+  background:url("https://i.postimg.cc/5NLyzc7m/WHITE_ROCK.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #ROMINIMAL_display{
+  
+  background:url("https://i.postimg.cc/7PpbbPV6/WHITE_ROMINIMAL.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #SOULFUL_HOUSE_display{
+  
+  background:url("https://i.postimg.cc/rydK8R53/WHITE_SOULFUL_HOUSE.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #SOUNDTRACK_display{
+  
+  background:url("https://i.postimg.cc/3W5Mhc28/WHITE_SOUNDTRACK.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #SPOKEN_WORD_display{
+  
+  background:url("https://i.postimg.cc/SsPFTssz/WHITE_SPOKEN_WORD.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #STAFF_PICKS_display{
+  
+  background:url("https://i.postimg.cc/FzJt24dC/WHITE_STAFF_PICKS.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #SYNTH_POP_display{
+  
+  background:url("https://i.postimg.cc/j52Y4Nsb/WHITE_SYNTH_POP.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #SYNTHWAVE_display{
+  
+  background:url("https://i.postimg.cc/65r63rqj/WHITE_SYNTHWAVE.png");
+  background-size: 320px 50px;
+  
+  
+}.shelf_banner #TECH_HOUSE_display{
+  
+  background:url("https://i.postimg.cc/YSbwF8BR/WHITE_TECH_HOUSE.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #TECHNO_UK_display{
+  
+  background:url("https://i.postimg.cc/pd2Hy44y/WHITE_TECHNO_UK.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #TECHNO_US_display{
+  
+  background:url("https://i.postimg.cc/jS6Txt8G/WHITE_TECHNO_US.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #TECHNO_WORLD_display{
+  
+  background:url("https://i.postimg.cc/X7C3Pw9N/WHITE_TECHNO_WORLD.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #TRANCE_display{
+  
+  background:url("https://i.postimg.cc/BnfsfXCT/WHITE_TRANCE.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #TRIBAL_HOUSE_display{
+  
+  background:url("https://i.postimg.cc/dQXwnWkS/WHITE_TRIBAL_HOUSE.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #TRIBAL_TECHNO_display{
+  
+  background:url("https://i.postimg.cc/XqTWJJ60/WHITE_TRIBAL_TECHNO.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #TRIP_HOP_display{
+  
+  background:url("https://i.postimg.cc/0j6xPS3f/WHITE_TRIP_HOP.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #TROUSE_display{
+  
+  background:url("https://i.postimg.cc/50K1hgPy/WHITE_TROUSE.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #UKG_display{
+  
+  background:url("https://i.postimg.cc/502bKTSD/WHITE_UKG.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #UKG_display{
+  
+  background:url("https://i.postimg.cc/502bKTSD/WHITE_UKG.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #VAPOUR_WAVE_display{
+  
+  background:url("https://i.postimg.cc/bv8zksDy/WHITE_VAPOUR_WAVE.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #VOCAL_HOUSE_display{
+  
+  background:url("https://i.postimg.cc/QMbjbh1p/WHITE_VOCAL_HOUSE.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #WORLD_display{
+  
+  background:url("https://i.postimg.cc/ncyVVdnQ/WHITE_WORLD.png");
+  background-size: 320px 50px;
+  
+  
+}
+.shelf_banner #BINS_display{
+  
+  background:url("https://i.postimg.cc/T3ndKrPN/WHITE_zz_BINS_zz.png");
+  background-size: 320px 50px;
+  
+  
+}
+
+
+
+@media screen and (min-width: 1200px) {
+
+  /****animation test */
+  #selection{
+    
+    animation: 6s ease-out 0s 1 slideInFromLeft;
+  }
+   
+  @keyframes slideInFromLeft {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  /***/
+
+  a:hover + a div {
+    margin-top: -107px;
+    transition: 1s;
+    
+  
+  }
+
+
+.shelves_container:has(.shelve:hover) #intro{
+  opacity: 0;
+  transition: 1s;
+}
+#intro{
+  transition: 1.5s;
+}
+#intro p{
+  position: absolute;
+  font-size: 15px;
+  text-align: start;
+}
+
+/* SHELVES NAME + DESCRIPTION DISPLAY */
+
+.shelves_container:has(#ABSTRACT:hover) #ABSTRACT_display, .shelves_container:has(#SPEENY:hover) #SPENNY_display,
+.shelves_container:has(#ACID_JAZZ:hover) #ACID_JAZZ_display, .shelves_container:has(#ACID_TECHNO:hover) #ACID_TECHNO_display,
+.shelves_container:has(#ACID:hover) #ACID_display,
+.shelves_container:has(#AFROBEAT:hover) #AFROBEAT_display,
+.shelves_container:has(#AMBIENT:hover) #AMBIENT_display,
+.shelves_container:has(#BASS_MUSIC:hover) #BASS_MUSIC_display,
+.shelves_container:has(#BERLIN_SCHOOL:hover) #BERLIN_SCHOOL_display,
+.shelves_container:has(#BIG_BEAT:hover) #BIG_BEAT_display,
+.shelves_container:has(#BINS:hover) #BINS_display,
+.shelves_container:has(#BLUES:hover) #BOOGIE_display,
+.shelves_container:has(#BOOGIE:hover) #BOOGIE_display,
+.shelves_container:has(#BOSSA_NOVA:hover) #BOSSA_NOVA_display,
+.shelves_container:has(#BREAKCORE:hover) #BREAKCORE_display,
+.shelves_container:has(#BREAKS:hover) #BREAKS_display,
+.shelves_container:has(#BROKEN_BEAT:hover) #BROKEN_BEAT_display,
+.shelves_container:has(#CHILLOUT_LOUNGE:hover) #CHILLOUT_LOUNGE_display,
+.shelves_container:has(#CHILLWAVE:hover) #CHILLWAVE_display,
+.shelves_container:has(#CLASSICAL:hover) #CLASSICAL_display,
+.shelves_container:has(#DARKWAVE:hover) #DARKWAVE_display,
+.shelves_container:has(#DEEP_HOUSE_90S:hover) #DEEP_HOUSE_90S_display,
+.shelves_container:has(#DEEP_HOUSE_2000S:hover) #DEEP_HOUSE_2000S_display,
+.shelves_container:has(#DEEP_HOUSE_2011S:hover) #DEEP_HOUSE_2011S_display,
+.shelves_container:has(#DEEP_TECH_HOUSE:hover) #DEEP_TECH_HOUSE_display,
+.shelves_container:has(#DEEP_TECHNO:hover) #DEEP_TECHNO_display,
+.shelves_container:has(#DISCO_70S:hover) #DISCO_70S_display,
+.shelves_container:has(#DISCO_HOUSE:hover) #DISCO_HOUSE_display,
+.shelves_container:has(#DISCO:hover) #DISCO_display,
+.shelves_container:has(#DOWNTEMPO:hover) #DOWNTEMPO_display,
+.shelves_container:has(#DRONE:hover) #DRONE_display,
+.shelves_container:has(#DRUM_N_BASS:hover) #DRUM_N_BASS_display,
+.shelves_container:has(#DUB_TECHNO:hover) #DUB_TECHNO_display,
+.shelves_container:has(#DUB:hover) #DUB_display,
+.shelves_container:has(#DUBSTEP:hover) #DUBSTEP_display,
+.shelves_container:has(#EBM:hover) #EBM_display,
+.shelves_container:has(#ELECTRO_80S:hover) #ELECTRO_80S_display,
+.shelves_container:has(#ELECTRO_DISCO:hover) #ELECTRO_DISCO_display,
+.shelves_container:has(#ELECTRO_HOUSE:hover) #ELECTRO_HOUSE_display,
+.shelves_container:has(#ELECTRO_POP:hover) #ELECTRO_POP_display,
+.shelves_container:has(#ELECTRO_TECHNO:hover) #ELECTRO_TECHNO_display,
+.shelves_container:has(#ELECTRO:hover) #ELECTRO_display,
+.shelves_container:has(#ELECTROCLASH:hover) #ELECTROCLASH_display,
+.shelves_container:has(#EURO_HOUSE:hover) #EURO_HOUSE_display,
+.shelves_container:has(#EXPERIMENTAL:hover) #EXPERIMENTAL_display,
+.shelves_container:has(#FILTER_HOUSE:hover) #FILTER_HOUSE_display,
+.shelves_container:has(#FOLK:hover) #FOLK_display,
+.shelves_container:has(#FREESTYLE:hover) #FREESTYLE_display,
+.shelves_container:has(#FREETEKNO:hover) #FREETEKNO_display,
+.shelves_container:has(#FUCK_KNOWS:hover) #FUCK_KNOWS_display,
+.shelves_container:has(#FUNK_N_SOUL:hover) #FUNK_N_SOUL_display,
+.shelves_container:has(#FUNKY_HOUSE:hover) #FUNKY_HOUSE_display,
+.shelves_container:has(#GARAGE_HOUSE:hover) #GARAGE_HOUSE_display,
+.shelves_container:has(#GERMAN_TECHNO:hover) #GERMAN_TECHNO_display,
+.shelves_container:has(#GHETTOTECH:hover) #GETTOTECH_display,
+.shelves_container:has(#GOA_TRANCE:hover) #GOA_TRANCE_display,
+.shelves_container:has(#GUILTY_PLEASURES:hover) #GUILTY_PLEASURES_display,
+.shelves_container:has(#HARD_HOUSE:hover) #HARD_HOUSE_display,
+.shelves_container:has(#HARD_TECHNO:hover) #HARD_TECHNO_display,
+.shelves_container:has(#HARD_TRANCE:hover) #HARD_TRANCE_display,
+.shelves_container:has(#HARDCORE:hover) #HARDCORE_display,
+.shelves_container:has(#HARDSTYLE:hover) #HARDSTYLE_display,
+.shelves_container:has(#HI-NRG:hover) #HI-NRG_display,
+.shelves_container:has(#HIP_HOP:hover) #HIP_HOP_display,
+.shelves_container:has(#HIP_HOUSE:hover) #HIP_HOUSE_display,
+.shelves_container:has(#HOUSE_80S:hover) #HOUSE_80S_display,
+.shelves_container:has(#HOUSE_2000S:hover) #HOUSE_2000S_display,
+.shelves_container:has(#HOUSE_2011S:hover) #HOUSE_2011S_display,
+.shelves_container:has(#HOUSE_UK_90S:hover) #HOUSE_UK_90S_display,
+.shelves_container:has(#HOUSE_US_90S:hover) #HOUSE_US_90S_display,
+.shelves_container:has(#HOUSE_WORLD:hover) #HOUSE_WORLD_display,
+.shelves_container:has(#IDM:hover) #IDM_display,
+.shelves_container:has(#INDIE_ROCK:hover) #INDIE_ROCK_display,
+.shelves_container:has(#INDUSTRIAL:hover) #INDUSTRIAL_display,
+.shelves_container:has(#ITALO_HOUSE:hover) #ITALO_HOUSE_display,
+.shelves_container:has(#JAZZ_FUNK:hover) #JAZZ_FUNK_display,
+.shelves_container:has(#JAZZY_HOUSE:hover) #JAZZY_HOUSE_display,
+.shelves_container:has(#JUNGLE:hover) #JUNGLE_display,
+.shelves_container:has(#LATIN_HOUSE:hover) #LATIN_HOUSE_display,
+.shelves_container:has(#LEFTFIELD:hover) #LEFTFIELD_display,
+.shelves_container:has(#MELODIC_TECHNO:hover) #MELODIC_TECHNO_display,
+.shelves_container:has(#METAL:hover) #METAL_display,
+.shelves_container:has(#MINIMAL-DEEPHOUSE:hover) #MINIMAL-DEEPHOUSE_display,
+.shelves_container:has(#MINIMAL-HOUSE:hover) #MINIMAL-HOUSE_display,
+.shelves_container:has(#MINIMAL-TECHHOUSE:hover) #MINIMAL-TECHHOUSE_display,
+.shelves_container:has(#MINIMAL-TECHNO:hover) #MINIMAL-TECHNO_display,
+.shelves_container:has(#MINIMAL:hover) #MINIMAL_display,
+.shelves_container:has(#MUSIQUE_CONCRETE:hover) #MUSIQUE_CONCRETE_display,
+.shelves_container:has(#NEW_AGE:hover) #NEW_AGE_display,
+.shelves_container:has(#NEW_BEAT:hover) #NEW_BEAT_display,
+.shelves_container:has(#NEW_RELEASES:hover) #NEW_RELEASES_display,
+.shelves_container:has(#NOISE:hover) #NOISE_display,
+.shelves_container:has(#NU_DISCO:hover) #NU_DISCO_display,
+.shelves_container:has(#OUR_LABELS:hover) #OUR_LABELS_display,
+.shelves_container:has(#POP:hover) #POP_display,
+.shelves_container:has(#PROGRESSIVE_HOUSE:hover) #PROGRESSIVE_HOUSE_display,
+.shelves_container:has(#PROGRESSIVE_TECHNO:hover) #PROGRESSIVE_TECHNO_display,
+.shelves_container:has(#PROGRESSIVE_TRANCE:hover) #PROGRESSIVE_TRANCE_display,
+.shelves_container:has(#PUNK:hover) #PUNK_display,
+.shelves_container:has(#RAVE:hover) #RAVE_display,
+.shelves_container:has(#REGGAE:hover) #REGGAE_display,
+.shelves_container:has(#RNB:hover) #RNB_display,
+.shelves_container:has(#ROCK:hover) #ROCK_display,
+.shelves_container:has(#ROMINIMAL:hover) #ROMINIMAL_display,
+.shelves_container:has(#SOULFUL_HOUSE:hover) #SOULFUL_HOUSE_display,
+.shelves_container:has(#SOUNDTRACK:hover) #SOUNDTRACK_display,
+.shelves_container:has(#SPOKEN_WORD:hover) #SPOKEN_WORD_display,
+.shelves_container:has(#STAFF_PICKS:hover) #STAFF_PICKS_display,
+.shelves_container:has(#SYNTH_POP:hover) #SYNTH_POP_display,
+.shelves_container:has(#TECH_HOUSE:hover) #TECH_HOUSE_display,
+.shelves_container:has(#TECHNO_UK:hover) #TECHNO_UK_display,
+.shelves_container:has(#TECHNO_US:hover) #TECHNO_US_display,
+.shelves_container:has(#TECHNO_WORLD:hover) #TECHNO_WORLD_display,
+.shelves_container:has(#TRANCE:hover) #TRANCE_display,
+.shelves_container:has(#TRIBAL_HOUSE:hover) #TRIBAL_HOUSE_display,
+.shelves_container:has(#TRIBAL_TECHNO:hover) #TRIBAL_TECHNO_display,
+.shelves_container:has(#TRIP_HOP:hover) #TRIP_HOP_display,
+.shelves_container:has(#TROUSE:hover) #TROUSE_display,
+.shelves_container:has(#UKG:hover) #UKG_display,
+.shelves_container:has(#VAPOUR_WAVE:hover) #VAPOUR_WAVE_display,
+.shelves_container:has(#VOCAL_HOUSE:hover) #VOCAL_HOUSE_display
+{
+  opacity: 1;
+  transition: 1s;
+}
+
+
+
+
+
+
+}
+
+
+
+
+/**/
 
 
 @media screen and (min-width: 650px) and (max-width:1200px) {
@@ -691,11 +1738,14 @@ body{
     height: 50vh;
     overflow: scroll;
     padding-top: 75px;
+
     
     
      
    }
    
+  
+  
 
   .distro{
     width: 140px;
@@ -777,11 +1827,7 @@ body{
     
   }
   .distro{
-    /*top: 94vh;
-    width: 35vw;
-    height: 7vw;
-    font-size: 9px;
-    left: 60vw;*/
+    
     display: none;
   }
   #text{
@@ -794,29 +1840,7 @@ body{
   }
 
 }
-@media screen and (min-width: 1200px) {
 
-  a:hover + a div {
-    margin-top: -107px ;
-    transition: 1s;
-    
-  
-  }
-
-
-.shelves_container:has(.shelve:hover) #intro{
-  opacity: 0;
-  transition: 1s;
-}
-#intro{
-  transition: 1.5s;
-}
-
-.shelves_container:has(#HIP-HOUSE:hover) #HIP-HOUSE_display{
-  opacity: 1;
-  transition: 1s;
-}
-}
 
 
 
@@ -825,7 +1849,7 @@ body{
 
 
 .App-header {
-  background-color: #282c34;
+  background-color: black;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -838,22 +1862,4 @@ body{
 
 
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
-@keyframes scroll-watcher {
-  /*from{
-    margin-top: -90px ;
-    transition: 1s;
-  }
-  to {
-    margin-top: -85px;
-    transition: 1s;
-  }*/
-}

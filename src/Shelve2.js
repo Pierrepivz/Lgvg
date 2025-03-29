@@ -48,10 +48,10 @@ export default function Shelve2(){
             
           </div></a>
          
-          <a  href="./house-shelf" ><div class="shelve"  id="HARDSTYLE" >
+          <a  href="./house-shelf" ><div class="shelve"  id="BREAKCORE" >
             
           </div></a>
-          <a  href="./house-shelf" ><div class="shelve" id="EURO_HOUSE">
+          <a  href="./house-shelf" ><div class="shelve" id="BERLIN_SCHOOL">
             
           </div></a>
           

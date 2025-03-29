@@ -1,7 +1,12 @@
+@import url('https://fonts.cdnfonts.com/css/thunderstrike');
+
+
 .shelf{
     padding-top: 100px;
     height: 100vh;
     box-sizing: border-box;
+    
+    font-family: 'Thunderstrike', sans-serif;
 }
 
 

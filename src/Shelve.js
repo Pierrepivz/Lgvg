@@ -1,4 +1,4 @@
-
+import "./assets.css";
 
 
 export default function Shelve(){
@@ -6,13 +6,13 @@ export default function Shelve(){
 
     return(
         <div class="shelve_block">
-          <a  href="./house-shelf" ><div class="shelve" id="HOUSE_2011S" >
+          <a  href="./house-shelf" ><div class="shelve" id="NEW_BEAT" >
             
           </div></a>
-          <a  href="./house-shelf" ><div class="shelve" id="HOUSE_2000S">
+          <a  href="./house-shelf" ><div class="shelve" id="VOCAL_HOUSE">
             
           </div></a>
-          <a  href="./house-shelf" ><div class="shelve" id="HOUSE_UK_90S">
+          <a  href="./house-shelf" ><div class="shelve" id="ACID">
             
           </div></a>
           <a  href="./house-shelf" ><div class="shelve" id="HOUSE_US_90S">
@@ -59,7 +59,12 @@ export default function Shelve(){
           </div></a>
           <a  href="./house-shelf" ><div class="shelve" id="HARD_HOUSE">
             
-          </div></a>
+          </div>
+          </a>
+          <div class="shelve portal_effect" >
+            
+          </div>
+          
           
           </div>
     );
