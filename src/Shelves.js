@@ -667,14 +667,13 @@ A dreamy section right here full of retro vibes and hazy beats. It’s all about
           
           <p>House, Techno, Trance...</p>
           <Shelve />
-          <Shelve2 />
+          <Shelve />
           <Shelve />
           <p>Electro, Downtempo, Tribal...</p>
           <Shelve />
           <Shelve />
           <p>Bass music, other genres</p>
-          <Shelve />
-          <Shelve />
+          
           
           
 
@@ -688,8 +687,9 @@ A dreamy section right here full of retro vibes and hazy beats. It’s all about
           
           
           </div>
-
-         
+          
+          <div class="portal_front"/>
+          <div class="portal_back"/>
           <div class="container">
           
           <div class="object_3d">

@@ -61,9 +61,39 @@ export default function Shelve(){
             
           </div>
           </a>
-          <div class="shelve portal_effect" >
+          <a  href="./house-shelf" ><div class="shelve" id="HARD_HOUSE">
             
           </div>
+          </a>
+          <a  href="./house-shelf" ><div class="shelve" id="HARD_HOUSE">
+            
+          </div>
+          </a>
+          <a  href="./house-shelf" ><div class="shelve" id="HARD_HOUSE">
+            
+          </div>
+          </a>
+          <a  href="./house-shelf" ><div class="shelve" id="HARD_HOUSE">
+            
+          </div>
+          </a>
+          <a  href="./house-shelf" ><div class="shelve" id="HARD_HOUSE">
+            
+          </div>
+          </a>
+          <a  href="./house-shelf" ><div class="shelve" id="HARD_HOUSE">
+            
+          </div>
+          </a>
+          <a  href="./house-shelf" ><div class="shelve" id="HARD_HOUSE">
+            
+          </div>
+          </a>
+          <a  href="./house-shelf" ><div class="shelve" id="HARD_HOUSE">
+            
+          </div>
+          </a>
+          
           
           
           </div>
