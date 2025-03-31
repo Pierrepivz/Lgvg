@@ -27,9 +27,15 @@ body{
 #selection{
   
   width: 70%;
-  margin-top: 40vh;
-  margin-left: 13vw;
+  margin-top: 33vh;
+  margin-left: 11vw;
   position:absolute;
+  animation: opacity 4s linear;
+}
+@keyframes opacity {
+  0% { opacity: 0; }
+  
+  100% { opacity: 1; }
   
 }
 #selection *{
@@ -103,11 +109,11 @@ body{
 
 .shelve{
   
-  width: 153px;
+  width: 180px;
   height: 130px;
   color: black;
   transition: 1s;
-  margin-top: -116px;
+  margin-top: -115px;
   transform: skewX(-5deg);
   
 }

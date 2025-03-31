@@ -690,16 +690,18 @@ A dreamy section right here full of retro vibes and hazy beats. It’s all about
           
           <div class="portal_front"/>
           <div class="portal_back"/>
+
           <div class="container">
           
           <div class="object_3d">
             
-          <div class="bottom_portal"><div class="layer_1"><div class="layer_2"><div class="layer_3"><div class="layer_4"><div class="layer_5"><div class="layer_6"/></div></div>
+          <div class="bottom_portal"><div class="layer_1"><div class="layer_2"><div class="layer_3">
           </div></div></div></div>
           
           
           </div>
           </div>
+          
           
 
           
@@ -708,3 +710,13 @@ A dreamy section right here full of retro vibes and hazy beats. It’s all about
         </div>
     );
 }
+/*<div class="container">
+          
+          <div class="object_3d">
+            
+          <div class="bottom_portal"><div class="layer_1"><div class="layer_2"><div class="layer_3"><div class="layer_4"><div class="layer_5"><div class="layer_6"/></div></div>
+          </div></div></div></div>
+          
+          
+          </div>
+          </div>*/
