@@ -27,30 +27,30 @@ body{
   height:300px;
   background-size: 90vw 300px;
   position:absolute;
-  margin-left:1vw;
+  left:2vw;
   margin-top:65vh;
 z-index:2;
-animation: opacity 4s linear , moving 3s linear infinite;
+animation: moving 3s linear infinite;
+
   
 }
 .portal_front{
+  
   background:url("https://i.postimg.cc/28ssTDtr/PORTAL-FRONT.png");
   width: 90vw;
   height:300px;
   background-size: 90vw 300px;
   position:absolute;
-  margin-left:1vw;
+  left:2vw;
   margin-top:65vh;
 z-index:3;
-animation: opacity 4s linear, moving 3s linear infinite;
-
+animation:  moving 3s linear infinite;
+pointer-events: none;
 }
 
 
 .container{
 position: sticky;
-
-
 width: 1300px;
   height: 1300px;
   perspective: 1700px;
@@ -58,6 +58,21 @@ width: 1300px;
   z-index:2;
   animation: opacity 4s linear;
   
+}
+@keyframes opacity_pulse {
+  0% { 
+    transform: scale(1); 
+    opacity: 0; }
+
+  75% { 
+    transform: scale(0.70); 
+    opacity: 0; }
+  
+  100% { 
+    transform: scale(1); 
+    opacity: 1; }
+  
+
 }
 @keyframes opacity {
   0% { opacity: 0; }
@@ -68,7 +83,7 @@ width: 1300px;
 
 @keyframes pulse {
   0% { transform: scale(1); }
-  50% { transform: scale(1.03);}
+  50% { transform: scale(1.3);}
   100% { transform: scale(1); }
   
 }
@@ -91,23 +106,80 @@ width: 1300px;
     margin-top:65vh; }
   
 }
-#upper_portal{
-    position: absolute;
-    height:800px;
 
-    margin-top:110vh;
-    
-    z-index:100;
-}
-.container *{
-    
-}
+
 .object_3d{
     width: inherit;
     height: inherit;
     transform-style: preserve-3d;
     
 }
+
+/*** ***/
+
+.portal_effect{
+  
+  position: sticky;
+  
+  width: 70vw;
+    height: 60vh;
+    border-radius: 100px;
+    margin-top:30vh;
+    margin-left:-5vw;
+    z-index:2;
+    animation: pulse 9s linear infinite, opacity 5s linear;
+    background: radial-gradient(rgb(0, 174, 255) , rgb(32, 102, 255) 30%, rgba(255, 255, 255, 0) 70%);
+    
+  }
+
+  .portal_effect .layer_1{
+    
+    position:absolute;
+    animation: loading 6s linear infinite;
+    
+    background: radial-gradient(rgb(58, 255, 255) 0%, rgba(103, 144, 255, 0.76) 40%, rgba(255, 255, 255, 0) 60%);
+    
+    opacity:0.2;
+    
+    width: 50%;
+    height: 70%;
+    border-radius: inherit;
+    
+    margin-left: 12vw;
+  }
+  .portal_effect .layer_2{
+
+    position:absolute;
+    animation: loading_2 15s linear infinite;
+    
+    background: radial-gradient(rgb(58, 255, 222) 5%, rgb(103, 199, 255) 40%, rgba(255, 255, 255, 0) 60%);
+    
+    opacity:0.1;
+    
+    width: 40%;
+    height: 90%;
+    border-radius: inherit;
+    margin-top:0px;
+    margin-left: 20vw;
+    
+    
+   
+}
+.portal_effect .layer_3{
+
+ 
+  background: radial-gradient(rgba(0, 255, 136, 0.534) , rgb(32, 102, 255) 30%, rgba(255, 255, 255, 0) 70%);
+  opacity:0.3;
+  width: 50%;
+  height: 50%;
+  border-radius: inherit;
+  animation: loading_2 8s linear infinite;
+  margin-left: 20%;
+  
+ 
+}
+
+  /****/
 
 
 .bottom_portal{
@@ -121,8 +193,6 @@ width: 1300px;
     margin-top:-100px;
     border-radius: 2000px;
     box-shadow: 1px 3 2px black;
-    
-   
     display: flex;
     flex-direction:column;
     align-items:center;
@@ -144,6 +214,7 @@ width: 1300px;
     
     
 }
+/*
 .layer_2{
     animation: loading_2 4s linear infinite;
     background: radial-gradient(rgb(0, 195, 255) 5%, rgb(86, 215, 255) 15%, rgba(255, 255, 255, 0) 55%);
@@ -155,7 +226,8 @@ width: 1300px;
     margin-top:10px;
     
    
-}
+}*/
+/*
 .layer_3{
     animation: loading_2 5s linear infinite;
     background: radial-gradient(rgb(0, 110, 255) 20%, rgb(176, 255, 86) 40%, rgba(255, 255, 255, 0) 55%);
@@ -210,7 +282,7 @@ width: 1300px;
     margin-top:0px;
     margin-left: 20px;
 
-}
+}*/
 .out_of_portal_effect{
     
     
@@ -241,3 +313,4 @@ width: 1300px;
       
     }
   }
+  
